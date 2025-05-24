@@ -1,0 +1,1111 @@
+
+--- RAW XML (first 2000 chars) ---
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6227f4ba-9aa6-4344-a5a7-e45789669627"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>PROTOPAM (pralidoxime chloride) for Injection<br/>
+   </title>
+   <effectiveTime value="20180101"/>
+   <setId root="2741d8fd-51c2-46be-880b-99f2b20a6137"/>
+   <versionNumber value="14"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005083209" root="1.3.6.1.4.1.519.1"/>
+            <name>Baxter Healthcare Corporation</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="b683b871-6ac2-4e99-bcfc-a5486c5ac89c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20180101"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60977-141" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Protopam Chloride</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>pralidoxime chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+ 
+
+Root tag: {urn:hl7-org:v3}document
+Root attrib: {'{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd'}
+
+All unique tags in XML:
+{urn:hl7-org:v3}time
+{urn:hl7-org:v3}author
+{urn:hl7-org:v3}genericMedicine
+{urn:hl7-org:v3}ingredient
+{urn:hl7-org:v3}territory
+{urn:hl7-org:v3}quantity
+{urn:hl7-org:v3}item
+{urn:hl7-org:v3}component
+{urn:hl7-org:v3}assignedEntity
+{urn:hl7-org:v3}reference
+{urn:hl7-org:v3}ingredientSubstance
+{urn:hl7-org:v3}paragraph
+{urn:hl7-org:v3}tr
+{urn:hl7-org:v3}characteristic
+{urn:hl7-org:v3}document
+{urn:hl7-org:v3}manufacturedProduct
+{urn:hl7-org:v3}observationMedia
+{urn:hl7-org:v3}td
+{urn:hl7-org:v3}section
+{urn:hl7-org:v3}asContent
+{urn:hl7-org:v3}list
+{urn:hl7-org:v3}tbody
+{urn:hl7-org:v3}territorialAuthority
+{urn:hl7-org:v3}substanceAdministration
+{urn:hl7-org:v3}consumedIn
+{urn:hl7-org:v3}name
+{urn:hl7-org:v3}col
+{urn:hl7-org:v3}versionNumber
+{urn:hl7-org:v3}formCode
+{urn:hl7-org:v3}assignedOrganization
+{urn:hl7-org:v3}containerPackagedProduct
+{urn:hl7-org:v3}structuredBody
+{urn:hl7-org:v3}value
+{urn:hl7-org:v3}activeMoiety
+{urn:hl7-org:v3}setId
+{urn:hl7-org:v3}content
+{urn:hl7-org:v3}marketingAct
+{urn:hl7-org:v3}footnote
+{urn:hl7-org:v3}statusCode
+{urn:hl7-org:v3}denominator
+{urn:hl7-org:v3}low
+{urn:hl7-org:v3}caption
+{urn:hl7-org:v3}linkHtml
+{urn:hl7-org:v3}approval
+{urn:hl7-org:v3}id
+{urn:hl7-org:v3}title
+{urn:hl7-org:v3}numerator
+{urn:hl7-org:v3}routeCode
+{urn:hl7-org:v3}text
+{urn:hl7-org:v3}effectiveTime
+{urn:hl7-org:v3}table
+{urn:hl7-org:v3}br
+{urn:hl7-org:v3}subject
+{urn:hl7-org:v3}renderMultiMedia
+{urn:hl7-org:v3}subjectOf
+{urn:hl7-org:v3}code
+{urn:hl7-org:v3}asEntityWithGeneric
+{urn:hl7-org:v3}representedOrganization
+
+All section titles in this SPL:
+- DESCRIPTION
+- CLINICAL PHARMACOLOGY
+- CLINICAL STUDIES
+- Pharmacokinetics
+- INDICATIONS AND USAGE
+- CONTRAINDICATIONS
+- WARNINGS
+- PRECAUTIONS
+- General
+- Laboratory Tests
+- Drug Interactions
+- Carcinogenesis, Mutagenesis, Impairment of Fertility
+- Pregnancy
+- Teratogenic Effects:
+- Nursing Mothers
+- Pediatric Use
+- Geriatric Use
+- ADVERSE REACTIONS
+- DRUG ABUSE AND DEPENDENCE
+- OVERDOSAGE
+- Manifestations of Overdosage
+- DOSAGE AND ADMINISTRATION
+- Organophosphate Poisoning
+- Symptoms Of Nerve Agent And Insecticide Poisoning
+- 
+                              
+- ADULT DOSING
+- 
+                              
+- 
+                              
+- PEDIATRIC DOSING (FOR PATIENTS 16 YEARS AND UNDER)
+- 
+                              
+- 
+                                    
+- 
+                                    
+- 
+                              
+- Anticholinesterase Overdosage
+- Preparation for Administration
+- HOW SUPPLIED
+- Storage
+- ANIMAL PHARMACOLOGY AND TOXICOLOGY
+- PACKAGE LABEL - Principal Display Panel
+
+All section titles and first 200 chars of text in this SPL:
+- None: 
+               
+               
+               
+               
+                  
+                     
+                        
+                        Protopam Chloride
+                        
+  
+- DESCRIPTION: 
+               
+               
+               DESCRIPTION
+               
+                  Chemical name: 2-formyl-1-methylpyridinium chloride oxime. Available in the United States as PROTOPAM Chlo
+- CLINICAL PHARMACOLOGY: 
+               
+               
+               CLINICAL PHARMACOLOGY
+               
+                  The principal action of pralidoxime chloride is to reactivate cholinesterase (mainly outside of 
+- CLINICAL STUDIES: 
+               
+               
+               CLINICAL STUDIES
+               
+                  There are no adequate and well controlled clinical studies that establish the effectiveness of pralid
+- Pharmacokinetics: 
+                     
+                     
+                     Pharmacokinetics
+                     
+                        Animal studies suggest that the minimum therapeutic concentration of pr
+- INDICATIONS AND USAGE: 
+               
+               
+               INDICATIONS AND USAGE
+               
+                  PROTOPAM Chloride is indicated as an antidote:
+                  
+                     
+        
+- CONTRAINDICATIONS: 
+               
+               
+               CONTRAINDICATIONS
+               
+                  There are no known absolute contraindications for the use of PROTOPAM Chloride (see PRECAUTIONS, Dru
+- WARNINGS: 
+               
+               
+               WARNINGS
+               
+                  PROTOPAM Chloride is not effective in the treatment of poisoning due to phosphorus, inorganic phosphates, or 
+- PRECAUTIONS: 
+               
+               
+               PRECAUTIONS
+               
+               
+                  
+                     
+                     
+                     General
+                
+- General: 
+                     
+                     
+                     General
+                     
+                        PROTOPAM Chloride has been well tolerated in most cases, but it must be remember
+- Laboratory Tests: 
+                     
+                     
+                     Laboratory Tests
+                     
+                        Treatment of organophosphate poisoning should be instituted without wai
+- Drug Interactions: 
+                     
+                     
+                     Drug Interactions
+                     
+                        When atropine and pralidoxime chloride are used together, the signs of
+- Carcinogenesis, Mutagenesis, Impairment of Fertility: 
+                     
+                     
+                     Carcinogenesis, Mutagenesis, Impairment of Fertility
+                     
+                        Because pralidoxime chloride is ind
+- Pregnancy: 
+                     
+                     
+                     Pregnancy
+                     
+                     
+                        
+                           
+                           
+- Teratogenic Effects:: 
+                           
+                           
+                           Teratogenic Effects:
+                           
+                              Animal reproduction studies have not 
+- Nursing Mothers: 
+                     
+                     
+                     Nursing Mothers
+                     
+                        It is not known whether this drug is excreted in human milk. Because man
+- Pediatric Use: 
+                     
+                     
+                     Pediatric Use
+                     
+                        There are no adequate and well-controlled clinical trials that establish t
+- Geriatric Use: 
+                     
+                     
+                     Geriatric Use
+                     
+                        Clinical studies of PROTOPAM Chloride did not include sufficient numbers o
+- ADVERSE REACTIONS: 
+               
+               
+               ADVERSE REACTIONS
+               
+                  Forty to 60 minutes after intramuscular injection, mild to moderate pain may be experienced at the s
+- DRUG ABUSE AND DEPENDENCE: 
+               
+               
+               DRUG ABUSE AND DEPENDENCE
+               
+                  PROTOPAM Chloride is not subject to abuse and possesses no known potential for dependence.
+ 
+- OVERDOSAGE: 
+               
+               
+               OVERDOSAGE
+               
+               
+                  
+                     
+                     
+                     Manifestations of Overdos
+- Manifestations of Overdosage: 
+                     
+                     
+                     Manifestations of Overdosage
+                     
+                        Observed in normal subjects only: dizziness, blurred vision
+- DOSAGE AND ADMINISTRATION: 
+               
+               
+               DOSAGE AND ADMINISTRATION
+               
+               
+                  
+                     
+                     
+                     Organophos
+- Organophosphate Poisoning: 
+                     
+                     
+                     Organophosphate Poisoning
+                     
+                        Treatment should include general supportive care, atropinizati
+- Symptoms Of Nerve Agent And Insecticide Poisoning: 
+                     
+                     
+                     Symptoms Of Nerve Agent And Insecticide Poisoning
+                     
+                        PROTOPAM Chloride dosing is based, in 
+- 
+                              : 
+                           
+                           
+                           
+                              Symptoms in INFANTS AND YOUNG CHILDREN:
+                           
+                 
+- ADULT DOSING: 
+                     
+                     
+                     ADULT DOSING
+                     
+                     
+                        
+                           
+                        
+- 
+                              : 
+                           
+                           
+                           
+                              ADULT INTRAVENOUS DOSING:
+                           
+                              R
+- 
+                              : 
+                           
+                           
+                           
+                              ADULT INTRAMUSCULAR DOSING:
+                           
+                             
+- PEDIATRIC DOSING (FOR PATIENTS 16 YEARS AND UNDER): 
+                     
+                     
+                     PEDIATRIC DOSING (FOR PATIENTS 16 YEARS AND UNDER)
+                     
+                     
+                        
+              
+- 
+                              : 
+                           
+                           
+                           
+                              PEDIATRIC INTRAVENOUS DOSING:
+                           
+                           
+- 
+                                    : 
+                                 
+                                 
+                                 
+                                    Loading Dose Following By Continuous Infusion:
+              
+- 
+                                    : 
+                                 
+                                 
+                                 
+                                    Intermittent Infusion Dosing:
+                               
+- 
+                              : 
+                           
+                           
+                           
+                              PEDIATRIC INTRAMUSCULAR DOSING:
+                           
+                         
+- Anticholinesterase Overdosage: 
+                     
+                     
+                     Anticholinesterase Overdosage
+                     
+                        As an antagonist to such anticholinesterases as neostigmin
+- Preparation for Administration: 
+                     
+                     
+                     Preparation for Administration
+                     
+                        PROTOPAM Chloride is supplied as 1000 mg single-dose vial
+- HOW SUPPLIED: 
+               
+               
+               HOW SUPPLIED
+               
+                  NDC 60977-141-01—Hospital Package: This contains six 20 mL vials of 1 g each of sterile PROTOPAM Chloride
+- Storage: 
+                     
+                     
+                     Storage
+                     
+                        
+                           Store at 20°-25°C (68°-77°F), excursions permitted t
+- ANIMAL PHARMACOLOGY AND TOXICOLOGY: 
+               
+               
+               ANIMAL PHARMACOLOGY AND TOXICOLOGY
+               
+                  The following table lists chemical and trade or generic names of pesticides, chemic
+- None: 
+               
+               
+               
+                  Baxter and Protopam are trademarks of Baxter International Inc.All other trademarks or brand names appearing herein are the property 
+- PACKAGE LABEL - Principal Display Panel: 
+               
+               
+               PACKAGE LABEL - Principal Display Panel
+               
+                  
+                     Container Label 
+                  
+                  Co
+
+--- DOSAGE AND ADMINISTRATION SECTIONS ---
+<section xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="i4i_indications_id_inv-142ad9b3-9c1f-4710-b6ad-57a45c6fffaf">
+               <id root="f6d84015-2646-4d12-a69f-ea7949bdff8a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>PROTOPAM Chloride is indicated as an antidote:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>In the treatment of poisoning due to those pesticides and chemicals (e.g., nerve agents) of the organophosphate class which have anticholinesterase activity and</item>
+                     <item>
+                        <caption>2.</caption>In the control of overdosage by anticholinesterase drugs used in the treatment of myasthenia gravis.</item>
+                  </list>
+                  <paragraph>The principal indications for the use of PROTOPAM Chloride are muscle weakness and respiratory depression. In severe poisoning, respiratory depression may be due to muscle weakness.</paragraph>
+               </text>
+               <effectiveTime value="20180101"/>
+            </section>
+         
+<section xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="i4i_contraindications_id_inv-77eae0d4-1687-4d34-a77f-a250329667c2">
+               <id root="53518463-5064-40ce-b02d-8e302d0fae11"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>There are no known absolute contraindications for the use of PROTOPAM Chloride (see <linkHtml href="#i4i_drug_interaction_id_b70db1cf-1698-4cd2-99b8-2c85263b4519">PRECAUTIONS, Drug Interactions</linkHtml> and <linkHtml href="#i4i_dosage_admin_id_inv-58d23d20-f1f2-4f6f-bb9c-e7da2156fd3c">DOSAGE AND ADMINISTRATION</linkHtml>). Relative contraindications include known hypersensitivity to the drug and other situations in which the risk of its use clearly outweighs possible benefit. </paragraph>
+               </text>
+               <effectiveTime value="20120601"/>
+            </section>
+         
+<section xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="i4i_precautions_id_inv-b99ab8ca-ec40-425e-9e7b-47f35ed96c4e">
+               <id root="defede46-effd-48e8-aace-3bca56a50a2a"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20180101"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_inv-7352c562-66e6-472b-8dd4-23eed8e12ea4">
+                     <id root="b95fc6e0-ab93-47c5-853f-caee87bb2ea7"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>PROTOPAM Chloride has been well tolerated in most cases, but it must be remembered that the desperate condition of the organophosphate-poisoned patient will generally mask such minor signs and symptoms as have been noted in normal subjects.</paragraph>
+                        <paragraph>Intravenous administration of PROTOPAM Chloride should be carried out slowly and, preferably, by continuous or intermittent infusion, since temporary worsening of cholinergic manifestations (i.e. tachycardia, cardiac arrest, laryngospasm, and muscle rigidity or paralysis) may occur if PROTOPAM Chloride is infused too rapidly. The intermittent infusion rate should not exceed 200 mg/minute. If intravenous administration is not feasible, intramuscular or subcutaneous injection should be used (see <linkHtml href="#i4i_dosage_admin_id_inv-58d23d20-f1f2-4f6f-bb9c-e7da2156fd3c">DOSAGE AND ADMINISTRATION</linkHtml>).</paragraph>
+                        <paragraph>PROTOPAM Chloride should be used with great caution in treating organophosphate overdosage in cases of myasthenia gravis since it may precipitate a myasthenic crisis.</paragraph>
+                        <paragraph>Because pralidoxime is excreted in the urine, a decrease in renal function will result in increased blood levels of the drug. Thus, the dosage of PROTOPAM Chloride should be reduced in the presence of renal insufficiency.</paragraph>
+                     </text>
+                     <effectiveTime value="20120601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_inv-b30e8db3-612f-4719-a8fa-107402bc358b">
+                     <id root="98df8d73-7a7a-4d76-a1a6-219a80be2e90"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Treatment of organophosphate poisoning should be instituted without waiting for the results of laboratory tests. Red blood cell, plasma cholinesterase, and urinary paranitrophenol measurements (in the case of parathion exposure) may be helpful in confirming the diagnosis and following the course of the illness, although such tests may be normal in the face of clinically significant organophosphate poisoning. A reduction in red blood cell cholinesterase concentration to below 50% of normal has been seen only with organophosphate ester poisoning.</paragraph>
+                     </text>
+                     <effectiveTime value="20100929"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_drug_interaction_id_b70db1cf-1698-4cd2-99b8-2c85263b4519">
+                     <id root="5915c724-40e1-4ddd-941c-eb1d6fc677f8"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>When atropine and pralidoxime chloride are used together, the signs of atropinization (flushing, mydriasis, tachycardia, dryness of the mouth and nose) may occur earlier than might be expected when atropine is used alone. This is especially true if the total dose of atropine has been large and the administration of pralidoxime chloride has been delayed.</paragraph>
+                        <paragraph>The following precautions should be kept in mind in the treatment of anticholinesterase poisoning, although they do not bear directly on the use of pralidoxime chloride: since barbiturates are potentiated by the anticholinesterases, they should be used cautiously in the treatment of convulsions; morphine, theophylline, aminophylline, reserpine, and phenothiazine-type tranquilizers should be avoided in patients with organophosphate poisoning. Prolonged paralysis has been reported in patients when succinylcholine is given with drugs having anticholinesterase activity; therefore, it should be used with caution.</paragraph>
+                     </text>
+                     <effectiveTime value="20100929"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_inv-31a2e97c-6a75-4e92-a6d9-f1086b16a938">
+                     <id root="b27dc2a5-9b51-4169-9f3e-5c42140c16ef"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Because pralidoxime chloride is indicated for short-term emergency use only, no investigations of its potential for carcinogenesis, mutagenesis, or impairment of fertility have been conducted by the manufacturer, or reported in the literature.</paragraph>
+                     </text>
+                     <effectiveTime value="20100929"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_inv-c06773a0-f9b7-4284-a0b8-c61526bed794">
+                     <id root="ba81b1cf-a2ec-4288-9688-1f1aa20a9a73"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20180101"/>
+                     <component>
+                        <section ID="i4i_teratogenic_id_735d6f40-6443-4759-8921-45d3c07068e0">
+                           <id root="0beb6a2f-36c0-473a-855d-b88e3d1d0608"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects:</title>
+                           <text>
+                              <paragraph>Animal reproduction studies have not been conducted with pralidoxime chloride. It is also not known whether pralidoxime chloride can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Pralidoxime chloride should be given to a pregnant woman only if clearly needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20180101"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_inv-fd73e142-41a8-4251-942a-c637b9a55f13">
+                     <id root="2853dbf0-42b3-48fb-bd93-88a3ecccdd0f"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when pralidoxime chloride is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20100929"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_inv-15b216f0-2cfb-46bb-b8c3-413ed5b10f1c">
+                     <id root="5259528d-ddb8-4154-9550-97424428566b"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>There are no adequate and well-controlled clinical trials that establish the effectiveness of pralidoxime chloride in pediatric patients. Efficacy has been extrapolated from the adult population and is supported by nonclinical studies, pharmacokinetic studies in adults and experience in the pediatric population (see <linkHtml href="#i4i_dosage_admin_id_inv-58d23d20-f1f2-4f6f-bb9c-e7da2156fd3c">DOSAGE AND ADMINISTRATION</linkHtml>). As in adults, laryngospasm, cardiac arrest, tachycardia, and muscle rigidity or paralysis have been reported following rapid intravenous injection. Muscle fasciculations, apnea, and convulsions have also been reported.</paragraph>
+                     </text>
+                     <effectiveTime value="20120601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_inv-722b5f5e-a149-49d1-a550-49ab93f83ecc">
+                     <id root="664c1ea4-1580-4d1d-8a7a-b69719cd478e"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of PROTOPAM Chloride did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20120601"/>
+                  </section>
+               </component>
+            </section>
+         
+<section xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="i4i_precautions_general_id_inv-7352c562-66e6-472b-8dd4-23eed8e12ea4">
+                     <id root="b95fc6e0-ab93-47c5-853f-caee87bb2ea7"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>PROTOPAM Chloride has been well tolerated in most cases, but it must be remembered that the desperate condition of the organophosphate-poisoned patient will generally mask such minor signs and symptoms as have been noted in normal subjects.</paragraph>
+                        <paragraph>Intravenous administration of PROTOPAM Chloride should be carried out slowly and, preferably, by continuous or intermittent infusion, since temporary worsening of cholinergic manifestations (i.e. tachycardia, cardiac arrest, laryngospasm, and muscle rigidity or paralysis) may occur if PROTOPAM Chloride is infused too rapidly. The intermittent infusion rate should not exceed 200 mg/minute. If intravenous administration is not feasible, intramuscular or subcutaneous injection should be used (see <linkHtml href="#i4i_dosage_admin_id_inv-58d23d20-f1f2-4f6f-bb9c-e7da2156fd3c">DOSAGE AND ADMINISTRATION</linkHtml>).</paragraph>
+                        <paragraph>PROTOPAM Chloride should be used with great caution in treating organophosphate overdosage in cases of myasthenia gravis since it may precipitate a myasthenic crisis.</paragraph>
+                        <paragraph>Because pralidoxime is excreted in the urine, a decrease in renal function will result in increased blood levels of the drug. Thus, the dosage of PROTOPAM Chloride should be reduced in the presence of renal insufficiency.</paragraph>
+                     </text>
+                     <effectiveTime value="20120601"/>
+                  </section>
+               
+<section xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="i4i_pediatric_use_id_inv-15b216f0-2cfb-46bb-b8c3-413ed5b10f1c">
+                     <id root="5259528d-ddb8-4154-9550-97424428566b"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>There are no adequate and well-controlled clinical trials that establish the effectiveness of pralidoxime chloride in pediatric patients. Efficacy has been extrapolated from the adult population and is supported by nonclinical studies, pharmacokinetic studies in adults and experience in the pediatric population (see <linkHtml href="#i4i_dosage_admin_id_inv-58d23d20-f1f2-4f6f-bb9c-e7da2156fd3c">DOSAGE AND ADMINISTRATION</linkHtml>). As in adults, laryngospasm, cardiac arrest, tachycardia, and muscle rigidity or paralysis have been reported following rapid intravenous injection. Muscle fasciculations, apnea, and convulsions have also been reported.</paragraph>
+                     </text>
+                     <effectiveTime value="20120601"/>
+                  </section>
+               
+<section xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="i4i_overdosage_id_inv-a6efdf98-3684-4526-b84e-2a3e45cb1887">
+               <id root="93ed8cdc-ae8c-4b7a-88f0-7ad4dafede59"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <effectiveTime value="20180101"/>
+               <component>
+                  <section ID="i4i_section_id_inv-28752fd8-76f1-4266-a387-4b33746067a3">
+                     <id root="44909f4e-7d95-43c5-9b64-3e21c70b8737"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Manifestations of Overdosage</title>
+                     <text>
+                        <paragraph>Observed in normal subjects only: dizziness, blurred vision, diplopia, headache, impaired accommodation, nausea, slight tachycardia. In therapy, it has been difficult to differentiate side effects due to the drug from those due to the effects of the poison.</paragraph>
+                     </text>
+                     <effectiveTime value="20180101"/>
+                  </section>
+               </component>
+            </section>
+         
+<section xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="i4i_section_id_inv-28752fd8-76f1-4266-a387-4b33746067a3">
+                     <id root="44909f4e-7d95-43c5-9b64-3e21c70b8737"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Manifestations of Overdosage</title>
+                     <text>
+                        <paragraph>Observed in normal subjects only: dizziness, blurred vision, diplopia, headache, impaired accommodation, nausea, slight tachycardia. In therapy, it has been difficult to differentiate side effects due to the drug from those due to the effects of the poison.</paragraph>
+                     </text>
+                     <effectiveTime value="20180101"/>
+                  </section>
+               
+<section xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="i4i_dosage_admin_id_inv-58d23d20-f1f2-4f6f-bb9c-e7da2156fd3c">
+               <id root="f7c86438-144b-4339-8f43-14574e42d833"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20180101"/>
+               <component>
+                  <section ID="i4i_section_id_inv-5a975309-8801-4bda-b801-097a6646d8fd">
+                     <id root="0def7b48-b538-40e6-8c05-4e6e8fc3c14d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Organophosphate Poisoning</title>
+                     <text>
+                        <paragraph>Treatment should include general supportive care, atropinization, and decontamination, in addition to the use of PROTOPAM Chloride. Treatment is most effective if initiated immediately after poisoning. Administration of PROTOPAM Chloride should be carried out slowly and, preferably, by infusion. If intravenous administration is not feasible, intramuscular or subcutaneous injection should be used. Generally, little is accomplished if PROTOPAM Chloride is given more than 36 hours after termination of exposure to the poison. When the poison has been ingested, it is particularly important to take into account the likelihood of continuing absorption from the lower bowel since this constitutes new exposure and fatal relapses have been reported after initial improvement. In such cases, additional doses of PROTOPAM Chloride may be needed every three to eight hours. In effect, the patient should be “titrated” with PROTOPAM Chloride as long as signs of poisoning recur. As in all cases of organophosphate poisoning, care should be taken to keep the patient under observation for at least 48 to 72 hours.</paragraph>
+                        <paragraph>If dermal exposure has occurred, clothing should be removed and the hair and skin washed thoroughly with sodium bicarbonate or alcohol as soon as possible. </paragraph>
+                        <paragraph>Supportive care, including airway management, respiratory and cardiovascular support, correction of metabolic abnormalities, and seizure control, may be necessary in cases of severe organophosphate poisoning.</paragraph>
+                        <paragraph>Atropine should be given as soon as possible after hypoxemia is improved. Atropine should not be given in the presence of significant hypoxia due to the risk of atropine-induced ventricular fibrillation. In adults, atropine may be given intravenously in doses of 2 to 4 mg. This should be repeated at 5- to 10-minute intervals until full atropinization (secretions are inhibited) or signs of atropine toxicity appear (delirium, hyperthermia, muscle twitching).</paragraph>
+                        <paragraph>Some degree of atropinization should be maintained for at least 48 hours, and until any depressed blood cholinesterase activity is reversed.</paragraph>
+                        <paragraph>Use of morphine, theophylline, aminophylline, reserpine, and phenothiazine-type tranquilizers should be avoided in patients with organophosphate poisoning (see <linkHtml href="#i4i_drug_interaction_id_b70db1cf-1698-4cd2-99b8-2c85263b4519">PRECAUTIONS, Drug Interactions</linkHtml>). Prolonged paralysis has been reported in patients when succinylcholine is given with drugs having anticholinesterase activity; therefore, it should be used with caution.</paragraph>
+                        <paragraph>After the effects of atropine become apparent, PROTOPAM Chloride may be administered.</paragraph>
+                     </text>
+                     <effectiveTime value="20120601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_6e4db2e5-c479-48d2-8440-5a3745603f6a">
+                     <id root="b2603355-6c3b-46c2-8eba-6534e8954a3a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Symptoms Of Nerve Agent And Insecticide Poisoning</title>
+                     <text>
+                        <paragraph>PROTOPAM Chloride dosing is based, in part, on the severity of symptoms of nerve agent intoxication.  These symptoms include the following:</paragraph>
+                        <paragraph>MILD symptoms:</paragraph>
+                        <list listType="ordered">
+                           <item>
+                              <caption>•</caption>Blurred vision and sore eyes</item>
+                           <item>
+                              <caption>•</caption>Teary eyes*</item>
+                           <item>
+                              <caption>•</caption>Runny nose*</item>
+                           <item>
+                              <caption>•</caption>Increased salivation such as sudden drooling*</item>
+                           <item>
+                              <caption>•</caption>Chest tightness or difficulty breathing</item>
+                           <item>
+                              <caption>•</caption>Tremors throughout the body or muscular twitching</item>
+                           <item>
+                              <caption>•</caption>Nausea and vomiting</item>
+                           <item>
+                              <caption>•</caption>Involuntary respiratory secretions</item>
+                        </list>
+                        <paragraph>SEVERE symptoms:</paragraph>
+                        <list listType="ordered">
+                           <item>
+                              <caption>•</caption>Strange or confused behavior</item>
+                           <item>
+                              <caption>•</caption>Severe difficulty breathing or respiratory secretions</item>
+                           <item>
+                              <caption>•</caption>Severe muscular twitching and general weakness**</item>
+                           <item>
+                              <caption>•</caption>Involuntary urination and defecation*</item>
+                           <item>
+                              <caption>•</caption>Convulsions</item>
+                           <item>
+                              <caption>•</caption>Unconsciousness</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180101"/>
+                     <component>
+                        <section ID="i4i_section_id_fde1ae25-cc63-430a-b1ec-d3441fc180e5">
+                           <id root="683129f2-5bef-4d34-8c4a-3471273dcf57"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Symptoms in INFANTS AND YOUNG CHILDREN:</content>
+                           </title>
+                           <text>
+                              <paragraph>* These symptoms are sometimes observed in healthy infants and young children.  In this age group, these symptoms are less reliable than other symptoms listed.  Symptoms must be considered collectively when nerve agent or pesticide exposure is known or suspected.</paragraph>
+                              <paragraph>** Infants may become drowsy or unconscious, with muscle floppiness rather than muscle twitching, soon after exposure to nerve agents or pesticides.</paragraph>
+                           </text>
+                           <effectiveTime value="20180101"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_59517023-7a61-4678-8c06-07120c944293">
+                     <id root="ae174c3d-1b4c-4cc9-b398-302ab3327748"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>ADULT DOSING</title>
+                     <effectiveTime value="20180101"/>
+                     <component>
+                        <section ID="i4i_section_id_9e1e7e60-23ef-4972-a786-4b32ed6f4ccc">
+                           <id root="be2f6061-d1f1-41b6-ae5a-3c4dee71e3a1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="underline">ADULT INTRAVENOUS DOSING</content>:</title>
+                           <text>
+                              <paragraph>Refer to the <linkHtml href="#i4i_section_id_9f96be6a-bc27-45d6-a746-73f464f454ec">Preparation for Administration</linkHtml> section for instructions on reconstitution and dilution of PROTOPAM Chloride that result in a 10-20 mg/mL solution for intravenous infusion.</paragraph>
+                              <paragraph>Inject an initial dose of 1000 to 2000 mg of PROTOPAM Chloride, preferably as an infusion in 100 mL of normal saline, over a 15- to 30-minute period.  If this is not practical or if pulmonary edema is present, the dose should be given slowly (over not less than five minutes) by intravenous injection, as a 50 mg/mL solution in water (e.g., 1000 mg in 20 mL).  A second dose of 1000 to 2000 mg may be indicated after about one hour if muscle weakness has not been relieved.  Additional doses may be given every 10-12 hours if muscle weakness persists.</paragraph>
+                              <paragraph>Intravenous administration of PROTOPAM Chloride should be carried out slowly and, preferably, by continuous or intermittent infusion, since temporary worsening of cholinergic manifestations (i.e. tachycardia, cardiac arrest, laryngospasm, and muscle rigidity or paralysis) may occur if PROTOPAM Chloride is infused too rapidly.  The intermittent infusion rate should not exceed 200 mg/minute.  If intravenous administration is not feasible, intramuscular or subcutaneous injection should be used.</paragraph>
+                              <paragraph>Evidence suggests that a loading dose followed by continuous intravenous infusion of PROTOPAM Chloride may maintain therapeutic levels longer than traditional short intermittent infusions therapy (see <linkHtml href="#i4i_pharmacokinetics_id_inv-27091995-3d6d-468d-a871-58c0e32290c3">Pharmacokinetics</linkHtml>).</paragraph>
+                           </text>
+                           <effectiveTime value="20180101"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_98fb5482-2709-4211-ae53-22cdbce61df8">
+                           <id root="c6399141-b9ff-4e8a-a272-b6a60ac7ecac"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="underline">ADULT INTRAMUSCULAR DOSING</content>:</title>
+                           <text>
+                              <paragraph>Refer to the <linkHtml href="#i4i_section_id_9f96be6a-bc27-45d6-a746-73f464f454ec">Preparation for Administration</linkHtml> section for instructions on reconstitution of PROTOPAM Chloride that result in an approximate 300 mg/mL solution for intramuscular administration.</paragraph>
+                              <paragraph>Intramuscular dosing in adults should be based on the severity of clinical symptoms.</paragraph>
+                              <paragraph>MILD SYMPTOMS</paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption>•</caption>For treatment of mild symptoms, administer a 600 mg (2 mL) intramuscular dose of PROTOPAM Chloride.  Wait 15 minutes for PROTOPAM Chloride to take effect.</item>
+                                 <item>
+                                    <caption>•</caption>If, after 15 minutes, mild symptoms persist, then administer a second 600 mg (2 mL) intramuscular dose of PROTOPAM Chloride.</item>
+                                 <item>
+                                    <caption>•</caption>If, after an additional 15 minutes, mild symptoms continue to persist, a third 600 mg (2 mL) dose of PROTOPAM Chloride may be administered for a total cumulative dose of 1800 mg.</item>
+                                 <item>
+                                    <caption>•</caption>If at any time after the first dose, the patient develops severe symptoms, administer two additional 600 mg intramuscular doses in rapid succession for a total cumulative dose of 1800 mg of PROTOPAM Chloride.</item>
+                              </list>
+                              <paragraph>SEVERE SYMPTOMS</paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption>•</caption>For treatment of severe symptoms, administer three 600 mg intramuscular doses (3 doses of 2 mL each) in rapid succession for a total dose of 1800 mg of PROTOPAM Chloride.</item>
+                              </list>
+                              <paragraph>PERSISTENT SYMPTOMS</paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption>•</caption>If symptoms persist after administering the complete 1800 mg regimen (3 injections of 600 mg each), the series may be repeated beginning approximately 1 hour after administration of the last injection.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20180101"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_255fcc6e-ad5a-42c9-a5ff-b59e55151ef7">
+                     <id root="6db2bab2-e4c0-42fb-b1ed-7a2b4eb06637"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>PEDIATRIC DOSING (FOR PATIENTS 16 YEARS AND UNDER)</title>
+                     <effectiveTime value="20180101"/>
+                     <component>
+                        <section ID="i4i_section_id_ca2ab7d2-d48c-418f-8a98-38b3a2c25413">
+                           <id root="13db4475-fed2-4d02-8637-609485539a8b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="underline">PEDIATRIC INTRAVENOUS DOSING</content>:</title>
+                           <text>
+                              <paragraph>Refer to the <linkHtml href="#i4i_section_id_9f96be6a-bc27-45d6-a746-73f464f454ec">Preparation for Administration</linkHtml> section for instructions on reconstitution and dilution of PROTOPAM Chloride that result in 10-20 mg/mL solution for intravenous infusion.</paragraph>
+                              <paragraph>PROTOPAM Chloride can be given as intermittent intravenous infusions or as a loading dose followed by continuous intravenous infusion, depending upon the patient’s clinical condition.  The specific dose given should depend upon the severity of the symptoms.</paragraph>
+                           </text>
+                           <effectiveTime value="20180101"/>
+                           <component>
+                              <section ID="i4i_section_id_7975526e-05a8-4969-8a30-41fc7e3d2739">
+                                 <id root="683e105c-e84d-4316-a11a-3bfa1c88b4d9"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>
+                                    <content styleCode="bold">Loading Dose Following By Continuous Infusion:</content>
+                                 </title>
+                                 <text>
+                                    <paragraph>Administer a loading dose of 20-50 mg/kg (not to exceed 2000 mg/dose) over 15-30 minutes followed by a continuous infusion of 10-20 mg/kg/hour.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20180101"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="i4i_section_id_e032097f-d34b-4332-bbfc-89fa83143ffe">
+                                 <id root="53f6611f-04fe-4540-b02f-38e8fc336100"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>
+                                    <content styleCode="bold">Intermittent Infusion Dosing:</content>
+                                 </title>
+                                 <text>
+                                    <paragraph>Administer an initial intermittent infusion of 20-50 mg/kg (not to exceed 2000 mg/dose) over 15-30 minutes.  A second dose of 20-50 mg/kg may be indicated after about one hour if muscle weakness has not been relieved.  Repeat dosing is permissible every 10-12 hours as needed.</paragraph>
+                                    <paragraph>If it is not practical to administer intermittent or continuous intravenous infusions, or if pulmonary edema is present, the 20-50 mg/kg dose should be given slowly (over not less than five minutes) by intravenous injection as a 50 mg/mL solution in water (see <linkHtml href="#i4i_section_id_9f96be6a-bc27-45d6-a746-73f464f454ec">Preparation for Administration</linkHtml> section).  Additional doses may be given every 10-12 hours if muscle weakness persists.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20180101"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_d71734b3-ef5e-485a-9c5f-dd13194a5801">
+                           <id root="234fab02-4139-474d-b8bd-510aaef81bd3"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="underline">PEDIATRIC INTRAMUSCULAR DOSING</content>:</title>
+                           <text>
+                              <paragraph>Refer to the <linkHtml href="#i4i_section_id_9f96be6a-bc27-45d6-a746-73f464f454ec">Preparation for Administration</linkHtml> section for instructions on reconstitution of PROTOPAM Chloride that result in an approximate 300 mg/mL solution for intramuscular administration.</paragraph>
+                              <paragraph>Intramuscular injections in children should be administered in the anterolateral aspect of the thigh to avoid the nerve, artery and vein, as well as the femur.</paragraph>
+                              <paragraph>Pharmacokinetic modeling using published data from the scientific literature was conducted to derive intramuscular dosing recommendations in the pediatric population.  The specific intramuscular dose of PROTOPAM Chloride should depend upon the severity of the symptoms.</paragraph>
+                              <paragraph>MILD SYMPTOMS</paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption>•</caption>For the treatment of mild symptoms, administer a weight-appropriate intramuscular dose (see Table 1 below) of PROTOPAM Chloride.  Wait 15 minutes for PROTOPAM Chloride to take effect.</item>
+                                 <item>
+                                    <caption>•</caption>If, after 15 minutes, mild symptoms persist, then administer a second weight-appropriate intramuscular dose of PROTOPAM Chloride.</item>
+                                 <item>
+                                    <caption>•</caption>If after an additional 15 minutes, mild symptoms continue to persist, a third weight-appropriate intramuscular dose of PROTOPAM Chloride may be administered.</item>
+                                 <item>
+                                    <caption>•</caption>The three PROTOPAM Chloride injections together are considered a single course of treatment, and the total amount of PROTOPAM Chloride administered per course of treatment (i.e., 3 weight-appropriate injections) should not exceed the total amounts listed in Table 1 below.</item>
+                                 <item>
+                                    <caption>•</caption>If at any time after the first dose, the patient develops severe symptoms, administer two additional weight-appropriate intramuscular doses of PROTOPAM Chloride in rapid succession.</item>
+                              </list>
+                              <paragraph>SEVERE SYMPTOMS</paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption>•</caption>For treatment of severe symptoms, administer the weight-appropriate intramuscular dose (see Table 1 below) of PROTOPAM Chloride Injection as three injections, in rapid succession, into the patient’s anterolateral thigh (see Table 1 below).</item>
+                              </list>
+                              <paragraph>PERSISTENT SYMPTOMS</paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption>•</caption>If symptoms persist after administering a complete course (3 injections of the weight-appropriate dose each), the series may be repeated beginning approximately 1 hour after administration of the last injection.</item>
+                              </list>
+                              <table ID="_RefIDA199D603D3E4477488EB340A8DCB823B" width="100%">
+                                 <caption>Table 1: Pediatric Intramuscular Dosing Recommendations<footnote ID="_RefID0577F502714043DB8674972D4B9B2276">Dosing is based on an approximate 300 mg/mL solution.</footnote>
+                                 </caption>
+                                 <col width="33%"/>
+                                 <col width="33%"/>
+                                 <col width="33%"/>
+                                 <tbody>
+                                    <tr>
+                                       <td styleCode="Botrule Lrule Toprule " valign="top">
+                                          <paragraph>
+                                             <content styleCode="bold">Weight in kg</content>
+                                          </paragraph>
+                                       </td>
+                                       <td styleCode="Botrule Lrule Toprule " valign="top">
+                                          <paragraph>
+                                             <content styleCode="bold">Dose Per Injection</content>
+                                             <footnote ID="_RefID8CBF43C6B20C4041AC2DA3C4E18C290B">During the treatment of mild symptoms, if at any time after the first dose, the patient develops severe symptoms, administer two additional weight-appropriate intramuscular doses of PROTOPAM Chloride in rapid succession.</footnote>
+                                          </paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                          <paragraph>
+                                             <content styleCode="bold">Total Dose per Three-Injection Course</content>
+                                             <footnote ID="_RefID4EE393E88BE8404BA4CF48020AFBABA0">Additional courses of PROTOPAM Chloride may be administered beginning one hour after the last injection.  A single course consists of three separate, weight-appropriate injections, administered either with 15 minute inter-injection observation periods for patients with mild symptoms, or all in rapid succession for patients with severe symptoms.</footnote>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Lrule Botrule " valign="top">
+                                          <paragraph>&lt; 40kg</paragraph>
+                                       </td>
+                                       <td styleCode="Lrule Botrule " valign="top">
+                                          <paragraph>15 mg/kg</paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Lrule Botrule " valign="top">
+                                          <paragraph>45 mg/kg</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Botrule Lrule " valign="top">
+                                          <paragraph>≥ 40 kg<footnote ID="_RefID4FF1C58174EF450BBFE68036B1B88765">Weight of 40 kg corresponds to approximately the 50th percentile for a 12 year old child per the weight-for-age percentile growth charts published by the Centers for Disease Control and Prevention in 2000.</footnote>
+                                          </paragraph>
+                                       </td>
+                                       <td styleCode="Botrule Lrule " valign="top">
+                                          <paragraph>Use Adult Dosing Recommendations<footnote ID="_RefID6E7DB727C2FA48F6A269CE6D5012A9CE">Adult Dose Per Injection is 600 mg; Total Adult Dose per Three-Injection Course is 1800 mg.</footnote>
+                                          </paragraph>
+                                       </td>
+                                       <td styleCode="Rrule Botrule Lrule " valign="top">
+                                          <paragraph>Use Adult Dosing Recommendations</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20180101"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_94888bf2-5de8-4967-969c-bed6dfbc28d4">
+                     <id root="4e78ebb6-5e99-4220-b57f-0e250f67530f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Anticholinesterase Overdosage</title>
+                     <text>
+                        <paragraph>As an antagonist to such anticholinesterases as neostigmine, pyridostigmine, and ambenonium, which are used in the treatment of myasthenia gravis, PROTOPAM Chloride may be given in a dosage of 1000 to 2000 mg intravenously followed by increments of 250 mg every five minutes.</paragraph>
+                     </text>
+                     <effectiveTime value="20120601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_9f96be6a-bc27-45d6-a746-73f464f454ec">
+                     <id root="92b640b6-39ee-40dc-996f-6b4e06274ff2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preparation for Administration</title>
+                     <text>
+                        <paragraph>PROTOPAM Chloride is supplied as 1000 mg single-dose vials for injection.</paragraph>
+                        <paragraph>For INTRAVENOUS infusion:  Reconstitute a single PROTOPAM Chloride 1000 mg vial by adding 20 mL of Sterile Water for Injection, USP, which results in a 50 mg/mL concentration.</paragraph>
+                        <paragraph>The solution should further be diluted with Normal Saline for Injection, USP to achieve a concentration of <content styleCode="bold">10 to 20 mg/mL</content> (e.g. 1000 mg in 100 mL or 2000 mg in 100 mL).</paragraph>
+                        <paragraph>For fluid restricted patients or for rapid administration (over at least 5 min), a maximum concentration of 50 mg/mL may be used.</paragraph>
+                        <paragraph>For INTRAMUSCULAR injection:  Reconstitute a single PROTOPAM Chloride 1000 mg vial by adding 3.3 mL of Sterile Water for Injection, USP for an approximate concentration of <content styleCode="bold">300 mg/mL</content>.</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                        <paragraph>Discard unused solution after a dose has been withdrawn.</paragraph>
+                     </text>
+                     <effectiveTime value="20180101"/>
+                  </section>
+               </component>
+            </section>
+         
+<section xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="i4i_section_id_94888bf2-5de8-4967-969c-bed6dfbc28d4">
+                     <id root="4e78ebb6-5e99-4220-b57f-0e250f67530f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Anticholinesterase Overdosage</title>
+                     <text>
+                        <paragraph>As an antagonist to such anticholinesterases as neostigmine, pyridostigmine, and ambenonium, which are used in the treatment of myasthenia gravis, PROTOPAM Chloride may be given in a dosage of 1000 to 2000 mg intravenously followed by increments of 250 mg every five minutes.</paragraph>
+                     </text>
+                     <effectiveTime value="20120601"/>
+                  </section>
+               
+<section xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="i4i_Principal_display_panel_id_3bb1ee87-15e9-499b-bd14-77d9a93d5edf">
+               <id root="fb8f02fc-b3d2-4232-aa85-34c230e891dc"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL - Principal Display Panel</title>
+               <text>
+                  <renderMultiMedia ID="id568" referencedObject="id_29a6f3c2-af16-4b2c-a867-393d89026768">
+                     <caption>Container Label </caption>
+                  </renderMultiMedia>
+                  <paragraph>Container Label </paragraph>
+                  <paragraph>NDC 60977-141-27</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protopam Chloride</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(pralidoxime chloride) for injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 g</content> Single Dose Vial</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR INTRAVENOUS INJECTION;</content>
+                  </paragraph>
+                  <paragraph>may be given subcutaneously or</paragraph>
+                  <paragraph>intramuscularly if this route is not feasible.</paragraph>
+                  <paragraph>Prepare injection by adding</paragraph>
+                  <paragraph>20 mL of Sterile Water for</paragraph>
+                  <paragraph>Injection, USP.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dosage: </content>1 g</paragraph>
+                  <paragraph>See accompanying descriptive</paragraph>
+                  <paragraph>literature. Discard unused solution</paragraph>
+                  <paragraph>after a dose have been withdrawn.</paragraph>
+                  <paragraph>Prepared by cryodesiccation.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">esi</content>
+                  </paragraph>
+                  <paragraph>Mfd. for<content styleCode="bold"> Baxter Healthcare Corp.</content>
+                  </paragraph>
+                  <paragraph>Deerfield, IL 60015 USA</paragraph>
+                  <paragraph>by: Baxter Pharmaceutical Solutions, LLC</paragraph>
+                  <paragraph>Bloomington, IN 47403</paragraph>
+                  <paragraph>460-496-01</paragraph>
+                  <paragraph>(01)00360977141275</paragraph>
+                  <paragraph>3-942-233</paragraph>
+                  <paragraph>Lot:</paragraph>
+                  <paragraph>Exp:</paragraph>
+                  <renderMultiMedia ID="id605" referencedObject="id_e0a25f59-6b5b-434a-88ca-3c512b3101b8">
+                     <caption>Carton Label </caption>
+                  </renderMultiMedia>
+                  <paragraph>Carton Label </paragraph>
+                  <paragraph>NDC 60977-141-01</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protopam Chloride</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(pralidoxime chloride) for injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 g</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>6 x 1 g Single Dose Vials</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR INTRAVENOUS INJECION;</content>
+                  </paragraph>
+                  <paragraph>may also be given by intramuscular or subcutaneous</paragraph>
+                  <paragraph>injection if the intravenous route is not feasible.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">esi</content>
+                  </paragraph>
+                  <paragraph>Manufactured for</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare Corporation</content>
+                  </paragraph>
+                  <paragraph>Deerfield, IL 60015 USA</paragraph>
+                  <paragraph>by: Baxter Pharmaceutical Solutions, LLC</paragraph>
+                  <paragraph>Bloomington, IN 47403</paragraph>
+                  <paragraph>Lot:</paragraph>
+                  <paragraph>Exp:</paragraph>
+                  <paragraph>NDC 60977-141-01</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protopam Chloride</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(pralidoxime chloride) for injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 g</content>
+                  </paragraph>
+                  <paragraph>6 x 1 g Single Dose Vials</paragraph>
+                  <paragraph>N3 60977 14101 5</paragraph>
+                  <paragraph>Enclosed in this package are six vials, each containing 1 g of sterile</paragraph>
+                  <paragraph>Protopam Chloride (pralidoxime chloride). When necessary, either 1N</paragraph>
+                  <paragraph>hydrochloric acid or 1N sodium hydroxide may be added during</paragraph>
+                  <paragraph>processing to adjust the pH. Prepare injection by adding 20 mL of</paragraph>
+                  <paragraph>Sterile Water for Injection, USP (not supplied in this package).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dosage: </content>1 g</paragraph>
+                  <paragraph>See accompanying descriptive literature.</paragraph>
+                  <paragraph>Discard unused solution after a dose has been withdrawn.</paragraph>
+                  <paragraph>Prepared by cryodesiccation.</paragraph>
+                  <paragraph>Enclosed product circular for human use.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20°-25°C (68°-77°F) [see USP Controlled Room Temperature].</content>
+                  </paragraph>
+                  <paragraph>Baxter and Protopam are trademarks of Baxter International Inc. or its subsidiaries.</paragraph>
+                  <paragraph>460-497-00</paragraph>
+                  <paragraph>3-809-1808</paragraph>
+                  <paragraph>NDC 60977-141-01</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protopam Chloride</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(pralidoxime chloride) for injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 g</content>
+                  </paragraph>
+                  <paragraph>6 x 1 g Single Dose Vials</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR INTRAVENOUS INJECTION;</content>
+                  </paragraph>
+                  <paragraph>may also be given by intramuscular</paragraph>
+                  <paragraph>or subcutaneous injection</paragraph>
+                  <paragraph>if the intravenous route is not feasible.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">esi</content>
+                  </paragraph>
+                  <paragraph>Manufactured for</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare Corporation</content>
+                  </paragraph>
+                  <paragraph>Deerfield, IL 60015 USA</paragraph>
+                  <paragraph>by: Baxter Pharmaceutical Solutions LLC</paragraph>
+                  <paragraph>Bloomington, IN 47403</paragraph>
+               </text>
+               <effectiveTime value="20180101"/>
+               <component>
+                  <observationMedia ID="id_29a6f3c2-af16-4b2c-a867-393d89026768">
+                     <text>Container Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_e0a25f59-6b5b-434a-88ca-3c512b3101b8">
+                     <text>Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         
+
+--- DOSING AND ADMINISTRATION SUMMARY ---
+INDICATIONS AND USAGE PROTOPAM Chloride is indicated as an antidote: 1.In the treatment of poisoning due to those pesticides and chemicals (e.g., nerve agents) of the organophosphate class which have anticholinesterase activity and 2.In the control of overdosage by anticholinesterase drugs used in the treatment of myasthenia gravis. The principal indications for the use of PROTOPAM Chloride are muscle weakness and respiratory depression. In severe poisoning, respiratory depression may be due to muscle weakness. CONTRAINDICATIONS There are no known absolute contraindications for the use of PROTOPAM Chloride (see PRECAUTIONS, Drug Interactions and DOSAGE AND ADMINISTRATION). Relative contraindications include known hypersensitivity to the drug and other situations in which the risk of its use clearly outweighs possible benefit. PRECAUTIONS General PROTOPAM Chloride has been well tolerated in most cases, but it must be remembered that the desperate condition of the organophosphate-poisoned patient will generally mask such minor signs and symptoms as have been noted in normal subjects. Intravenous administration of PROTOPAM Chloride should be carried out slowly and, preferably, by continuous or intermittent infusion, since temporary worsening of cholinergic manifestations (i.e. tachycardia, cardiac arrest, laryngospasm, and muscle rigidity or paralysis) may occur if PROTOPAM Chloride is infused too rapidly. The intermittent infusion rate should not exceed 200 mg/minute. If intravenous administration is not feasible, intramuscular or subcutaneous injection should be used (see DOSAGE AND ADMINISTRATION). PROTOPAM Chloride should be used with great caution in treating organophosphate overdosage in cases of myasthenia gravis since it may precipitate a myasthenic crisis. Because pralidoxime is excreted in the urine, a decrease in renal function will result in increased blood levels of the drug. Thus, the dosage of PROTOPAM Chloride should be reduced in the presence of renal insufficiency. Laboratory Tests Treatment of organophosphate poisoning should be instituted without waiting for the results of laboratory tests. Red blood cell, plasma cholinesterase, and urinary paranitrophenol measurements (in the case of parathion exposure) may be helpful in confirming the diagnosis and following the course of the illness, although such tests may be normal in the face of clinically significant organophosphate poisoning. A reduction in red blood cell cholinesterase concentration to below 50% of normal has been seen only with organophosphate ester poisoning. Drug Interactions When atropine and pralidoxime chloride are used together, the signs of atropinization (flushing, mydriasis, tachycardia, dryness of the mouth and nose) may occur earlier than might be expected when atropine is used alone. This is especially true if the total dose of atropine has been large and the administration of pralidoxime chloride has been delayed. The following precautions should be kept in mind in the treatment of anticholinesterase poisoning, although they do not bear directly on the use of pralidoxime chloride: since barbiturates are potentiated by the anticholinesterases, they should be used cautiously in the treatment of convulsions; morphine, theophylline, aminophylline, reserpine, and phenothiazine-type tranquilizers should be avoided in patients with organophosphate poisoning. Prolonged paralysis has been reported in patients when succinylcholine is given with drugs having anticholinesterase activity; therefore, it should be used with caution. Carcinogenesis, Mutagenesis, Impairment of Fertility Because pralidoxime chloride is indicated for short-term emergency use only, no investigations of its potential for carcinogenesis, mutagenesis, or impairment of fertility have been conducted by the manufacturer, or reported in the literature. Pregnancy Teratogenic Effects: Animal reproduction studies have not been conducted with pralidoxime chloride. It is also not known whether pralidoxime chloride can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Pralidoxime chloride should be given to a pregnant woman only if clearly needed. Nursing Mothers It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when pralidoxime chloride is administered to a nursing woman. Pediatric Use There are no adequate and well-controlled clinical trials that establish the effectiveness of pralidoxime chloride in pediatric patients. Efficacy has been extrapolated from the adult population and is supported by nonclinical studies, pharmacokinetic studies in adults and experience in the pediatric population (see DOSAGE AND ADMINISTRATION). As in adults, laryngospasm, cardiac arrest, tachycardia, and muscle rigidity or paralysis have been reported following rapid intravenous injection. Muscle fasciculations, apnea, and convulsions have also been reported. Geriatric Use Clinical studies of PROTOPAM Chloride did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. General PROTOPAM Chloride has been well tolerated in most cases, but it must be remembered that the desperate condition of the organophosphate-poisoned patient will generally mask such minor signs and symptoms as have been noted in normal subjects. Intravenous administration of PROTOPAM Chloride should be carried out slowly and, preferably, by continuous or intermittent infusion, since temporary worsening of cholinergic manifestations (i.e. tachycardia, cardiac arrest, laryngospasm, and muscle rigidity or paralysis) may occur if PROTOPAM Chloride is infused too rapidly. The intermittent infusion rate should not exceed 200 mg/minute. If intravenous administration is not feasible, intramuscular or subcutaneous injection should be used (see DOSAGE AND ADMINISTRATION). PROTOPAM Chloride should be used with great caution in treating organophosphate overdosage in cases of myasthenia gravis since it may precipitate a myasthenic crisis. Because pralidoxime is excreted in the urine, a decrease in renal function will result in increased blood levels of the drug. Thus, the dosage of PROTOPAM Chloride should be reduced in the presence of renal insufficiency. Pediatric Use There are no adequate and well-controlled clinical trials that establish the effectiveness of pralidoxime chloride in pediatric patients. Efficacy has been extrapolated from the adult population and is supported by nonclinical studies, pharmacokinetic studies in adults and experience in the pediatric population (see DOSAGE AND ADMINISTRATION). As in adults, laryngospasm, cardiac arrest, tachycardia, and muscle rigidity or paralysis have been reported following rapid intravenous injection. Muscle fasciculations, apnea, and convulsions have also been reported. OVERDOSAGE Manifestations of Overdosage Observed in normal subjects only: dizziness, blurred vision, diplopia, headache, impaired accommodation, nausea, slight tachycardia. In therapy, it has been difficult to differentiate side effects due to the drug from those due to the effects of the poison. Manifestations of Overdosage Observed in normal subjects only: dizziness, blurred vision, diplopia, headache, impaired accommodation, nausea, slight tachycardia. In therapy, it has been difficult to differentiate side effects due to the drug from those due to the effects of the poison. DOSAGE AND ADMINISTRATION Organophosphate Poisoning Treatment should include general supportive care, atropinization, and decontamination, in addition to the use of PROTOPAM Chloride. Treatment is most effective if initiated immediately after poisoning. Administration of PROTOPAM Chloride should be carried out slowly and, preferably, by infusion. If intravenous administration is not feasible, intramuscular or subcutaneous injection should be used. Generally, little is accomplished if PROTOPAM Chloride is given more than 36 hours after termination of exposure to the poison. When the poison has been ingested, it is particularly important to take into account the likelihood of continuing absorption from the lower bowel since this constitutes new exposure and fatal relapses have been reported after initial improvement. In such cases, additional doses of PROTOPAM Chloride may be needed every three to eight hours. In effect, the patient should be “titrated” with PROTOPAM Chloride as long as signs of poisoning recur. As in all cases of organophosphate poisoning, care should be taken to keep the patient under observation for at least 48 to 72 hours. If dermal exposure has occurred, clothing should be removed and the hair and skin washed thoroughly with sodium bicarbonate or alcohol as soon as possible. Supportive care, including airway management, respiratory and cardiovascular support, correction of metabolic abnormalities, and seizure control, may be necessary in cases of severe organophosphate poisoning. Atropine should be given as soon as possible after hypoxemia is improved. Atropine should not be given in the presence of significant hypoxia due to the risk of atropine-induced ventricular fibrillation. In adults, atropine may be given intravenously in doses of 2 to 4 mg. This should be repeated at 5- to 10-minute intervals until full atropinization (secretions are inhibited) or signs of atropine toxicity appear (delirium, hyperthermia, muscle twitching). Some degree of atropinization should be maintained for at least 48 hours, and until any depressed blood cholinesterase activity is reversed. Use of morphine, theophylline, aminophylline, reserpine, and phenothiazine-type tranquilizers should be avoided in patients with organophosphate poisoning (see PRECAUTIONS, Drug Interactions). Prolonged paralysis has been reported in patients when succinylcholine is given with drugs having anticholinesterase activity; therefore, it should be used with caution. After the effects of atropine become apparent, PROTOPAM Chloride may be administered. Symptoms Of Nerve Agent And Insecticide Poisoning PROTOPAM Chloride dosing is based, in part, on the severity of symptoms of nerve agent intoxication. These symptoms include the following: MILD symptoms: •Blurred vision and sore eyes •Teary eyes* •Runny nose* •Increased salivation such as sudden drooling* •Chest tightness or difficulty breathing •Tremors throughout the body or muscular twitching •Nausea and vomiting •Involuntary respiratory secretions SEVERE symptoms: •Strange or confused behavior •Severe difficulty breathing or respiratory secretions •Severe muscular twitching and general weakness** •Involuntary urination and defecation* •Convulsions •Unconsciousness Symptoms in INFANTS AND YOUNG CHILDREN: * These symptoms are sometimes observed in healthy infants and young children. In this age group, these symptoms are less reliable than other symptoms listed. Symptoms must be considered collectively when nerve agent or pesticide exposure is known or suspected. ** Infants may become drowsy or unconscious, with muscle floppiness rather than muscle twitching, soon after exposure to nerve agents or pesticides. ADULT DOSING ADULT INTRAVENOUS DOSING: Refer to the Preparation for Administration section for instructions on reconstitution and dilution of PROTOPAM Chloride that result in a 10-20 mg/mL solution for intravenous infusion. Inject an initial dose of 1000 to 2000 mg of PROTOPAM Chloride, preferably as an infusion in 100 mL of normal saline, over a 15- to 30-minute period. If this is not practical or if pulmonary edema is present, the dose should be given slowly (over not less than five minutes) by intravenous injection, as a 50 mg/mL solution in water (e.g., 1000 mg in 20 mL). A second dose of 1000 to 2000 mg may be indicated after about one hour if muscle weakness has not been relieved. Additional doses may be given every 10-12 hours if muscle weakness persists. Intravenous administration of PROTOPAM Chloride should be carried out slowly and, preferably, by continuous or intermittent infusion, since temporary worsening of cholinergic manifestations (i.e. tachycardia, cardiac arrest, laryngospasm, and muscle rigidity or paralysis) may occur if PROTOPAM Chloride is infused too rapidly. The intermittent infusion rate should not exceed 200 mg/minute. If intravenous administration is not feasible, intramuscular or subcutaneous injection should be used. Evidence suggests that a loading dose followed by continuous intravenous infusion of PROTOPAM Chloride may maintain therapeutic levels longer than traditional short intermittent infusions therapy (see Pharmacokinetics). ADULT INTRAMUSCULAR DOSING: Refer to the Preparation for Administration section for instructions on reconstitution of PROTOPAM Chloride that result in an approximate 300 mg/mL solution for intramuscular administration. Intramuscular dosing in adults should be based on the severity of clinical symptoms. MILD SYMPTOMS •For treatment of mild symptoms, administer a 600 mg (2 mL) intramuscular dose of PROTOPAM Chloride. Wait 15 minutes for PROTOPAM Chloride to take effect. •If, after 15 minutes, mild symptoms persist, then administer a second 600 mg (2 mL) intramuscular dose of PROTOPAM Chloride. •If, after an additional 15 minutes, mild symptoms continue to persist, a third 600 mg (2 mL) dose of PROTOPAM Chloride may be administered for a total cumulative dose of 1800 mg. •If at any time after the first dose, the patient develops severe symptoms, administer two additional 600 mg intramuscular doses in rapid succession for a total cumulative dose of 1800 mg of PROTOPAM Chloride. SEVERE SYMPTOMS •For treatment of severe symptoms, administer three 600 mg intramuscular doses (3 doses of 2 mL each) in rapid succession for a total dose of 1800 mg of PROTOPAM Chloride. PERSISTENT SYMPTOMS •If symptoms persist after administering the complete 1800 mg regimen (3 injections of 600 mg each), the series may be repeated beginning approximately 1 hour after administration of the last injection. PEDIATRIC DOSING (FOR PATIENTS 16 YEARS AND UNDER) PEDIATRIC INTRAVENOUS DOSING: Refer to the Preparation for Administration section for instructions on reconstitution and dilution of PROTOPAM Chloride that result in 10-20 mg/mL solution for intravenous infusion. PROTOPAM Chloride can be given as intermittent intravenous infusions or as a loading dose followed by continuous intravenous infusion, depending upon the patient’s clinical condition. The specific dose given should depend upon the severity of the symptoms. Loading Dose Following By Continuous Infusion: Administer a loading dose of 20-50 mg/kg (not to exceed 2000 mg/dose) over 15-30 minutes followed by a continuous infusion of 10-20 mg/kg/hour. Intermittent Infusion Dosing: Administer an initial intermittent infusion of 20-50 mg/kg (not to exceed 2000 mg/dose) over 15-30 minutes. A second dose of 20-50 mg/kg may be indicated after about one hour if muscle weakness has not been relieved. Repeat dosing is permissible every 10-12 hours as needed. If it is not practical to administer intermittent or continuous intravenous infusions, or if pulmonary edema is present, the 20-50 mg/kg dose should be given slowly (over not less than five minutes) by intravenous injection as a 50 mg/mL solution in water (see Preparation for Administration section). Additional doses may be given every 10-12 hours if muscle weakness persists. PEDIATRIC INTRAMUSCULAR DOSING: Refer to the Preparation for Administration section for instructions on reconstitution of PROTOPAM Chloride that result in an approximate 300 mg/mL solution for intramuscular administration. Intramuscular injections in children should be administered in the anterolateral aspect of the thigh to avoid the nerve, artery and vein, as well as the femur. Pharmacokinetic modeling using published data from the scientific literature was conducted to derive intramuscular dosing recommendations in the pediatric population. The specific intramuscular dose of PROTOPAM Chloride should depend upon the severity of the symptoms. MILD SYMPTOMS •For the treatment of mild symptoms, administer a weight-appropriate intramuscular dose (see Table 1 below) of PROTOPAM Chloride. Wait 15 minutes for PROTOPAM Chloride to take effect. •If, after 15 minutes, mild symptoms persist, then administer a second weight-appropriate intramuscular dose of PROTOPAM Chloride. •If after an additional 15 minutes, mild symptoms continue to persist, a third weight-appropriate intramuscular dose of PROTOPAM Chloride may be administered. •The three PROTOPAM Chloride injections together are considered a single course of treatment, and the total amount of PROTOPAM Chloride administered per course of treatment (i.e., 3 weight-appropriate injections) should not exceed the total amounts listed in Table 1 below. •If at any time after the first dose, the patient develops severe symptoms, administer two additional weight-appropriate intramuscular doses of PROTOPAM Chloride in rapid succession. SEVERE SYMPTOMS •For treatment of severe symptoms, administer the weight-appropriate intramuscular dose (see Table 1 below) of PROTOPAM Chloride Injection as three injections, in rapid succession, into the patient’s anterolateral thigh (see Table 1 below). PERSISTENT SYMPTOMS •If symptoms persist after administering a complete course (3 injections of the weight-appropriate dose each), the series may be repeated beginning approximately 1 hour after administration of the last injection. Table 1: Pediatric Intramuscular Dosing RecommendationsDosing is based on an approximate 300 mg/mL solution. Weight in kg Dose Per Injection During the treatment of mild symptoms, if at any time after the first dose, the patient develops severe symptoms, administer two additional weight-appropriate intramuscular doses of PROTOPAM Chloride in rapid succession. Total Dose per Three-Injection Course Additional courses of PROTOPAM Chloride may be administered beginning one hour after the last injection. A single course consists of three separate, weight-appropriate injections, administered either with 15 minute inter-injection observation periods for patients with mild symptoms, or all in rapid succession for patients with severe symptoms. &lt; 40kg 15 mg/kg 45 mg/kg ≥ 40 kgWeight of 40 kg corresponds to approximately the 50th percentile for a 12 year old child per the weight-for-age percentile growth charts published by the Centers for Disease Control and Prevention in 2000. Use Adult Dosing RecommendationsAdult Dose Per Injection is 600 mg; Total Adult Dose per Three-Injection Course is 1800 mg. Use Adult Dosing Recommendations Anticholinesterase Overdosage As an antagonist to such anticholinesterases as neostigmine, pyridostigmine, and ambenonium, which are used in the treatment of myasthenia gravis, PROTOPAM Chloride may be given in a dosage of 1000 to 2000 mg intravenously followed by increments of 250 mg every five minutes. Preparation for Administration PROTOPAM Chloride is supplied as 1000 mg single-dose vials for injection. For INTRAVENOUS infusion: Reconstitute a single PROTOPAM Chloride 1000 mg vial by adding 20 mL of Sterile Water for Injection, USP, which results in a 50 mg/mL concentration. The solution should further be diluted with Normal Saline for Injection, USP to achieve a concentration of 10 to 20 mg/mL (e.g. 1000 mg in 100 mL or 2000 mg in 100 mL). For fluid restricted patients or for rapid administration (over at least 5 min), a maximum concentration of 50 mg/mL may be used. For INTRAMUSCULAR injection: Reconstitute a single PROTOPAM Chloride 1000 mg vial by adding 3.3 mL of Sterile Water for Injection, USP for an approximate concentration of 300 mg/mL. Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Discard unused solution after a dose has been withdrawn. Anticholinesterase Overdosage As an antagonist to such anticholinesterases as neostigmine, pyridostigmine, and ambenonium, which are used in the treatment of myasthenia gravis, PROTOPAM Chloride may be given in a dosage of 1000 to 2000 mg intravenously followed by increments of 250 mg every five minutes. PACKAGE LABEL - Principal Display Panel Container Label Container Label NDC 60977-141-27 Protopam Chloride (pralidoxime chloride) for injection 1 g Single Dose Vial Rx only FOR INTRAVENOUS INJECTION; may be given subcutaneously or intramuscularly if this route is not feasible. Prepare injection by adding 20 mL of Sterile Water for Injection, USP. Usual Dosage: 1 g See accompanying descriptive literature. Discard unused solution after a dose have been withdrawn. Prepared by cryodesiccation. esi Mfd. for Baxter Healthcare Corp. Deerfield, IL 60015 USA by: Baxter Pharmaceutical Solutions, LLC Bloomington, IN 47403 460-496-01 (01)00360977141275 3-942-233 Lot: Exp: Carton Label Carton Label NDC 60977-141-01 Protopam Chloride (pralidoxime chloride) for injection 1 g Rx only 6 x 1 g Single Dose Vials FOR INTRAVENOUS INJECION; may also be given by intramuscular or subcutaneous injection if the intravenous route is not feasible. esi Manufactured for Baxter Healthcare Corporation Deerfield, IL 60015 USA by: Baxter Pharmaceutical Solutions, LLC Bloomington, IN 47403 Lot: Exp: NDC 60977-141-01 Protopam Chloride (pralidoxime chloride) for injection 1 g 6 x 1 g Single Dose Vials N3 60977 14101 5 Enclosed in this package are six vials, each containing 1 g of sterile Protopam Chloride (pralidoxime chloride). When necessary, either 1N hydrochloric acid or 1N sodium hydroxide may be added during processing to adjust the pH. Prepare injection by adding 20 mL of Sterile Water for Injection, USP (not supplied in this package). Usual Dosage: 1 g See accompanying descriptive literature. Discard unused solution after a dose has been withdrawn. Prepared by cryodesiccation. Enclosed product circular for human use. Store at 20°-25°C (68°-77°F) [see USP Controlled Room Temperature]. Baxter and Protopam are trademarks of Baxter International Inc. or its subsidiaries. 460-497-00 3-809-1808 NDC 60977-141-01 Protopam Chloride (pralidoxime chloride) for injection 1 g 6 x 1 g Single Dose Vials FOR INTRAVENOUS INJECTION; may also be given by intramuscular or subcutaneous injection if the intravenous route is not feasible. esi Manufactured for Baxter Healthcare Corporation Deerfield, IL 60015 USA by: Baxter Pharmaceutical Solutions LLC Bloomington, IN 47403 Container Label Carton Label
+
