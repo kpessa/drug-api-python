@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Drug Information Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/full_results_styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Full Drug Information for "{{ drug_name }}"</h1>
+
+        {% if error_message %}
+            <div class="section error">
+                <h3>Error</h3>
+                <p>{{ error_message }}</p>
+            </div>
+        {% endif %}
+
+        {% if prioritized_spls or non_prioritized_spls %}
+            <div class="section">
+                <h3>SPLs Identified and Processed</h3>
+                
+                {% if prioritized_spls %}
+                    <h4>Dosage Forms Selected by You for Detailed Analysis:</h4>
+                    <ul>
+                        {% for spl in prioritized_spls %}
+                            <li>
+                                <strong>{{ spl.form_name }}</strong>: {{ spl.title }} (SETID: {{ spl.setid }}) - Cat: {{ spl.marketing_category }} - Pub: {{ spl.published_date }}
+                                [<a href="{{ spl.pdf_link }}" target="_blank">PDF</a>]
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+
+                {% if non_prioritized_spls %}
+                    <h4>Other SPLs Identified (Not selected for this detailed analysis):</h4>
+                    <ul>
+                        {% for spl in non_prioritized_spls %}
+                            <li>
+                                <strong>{{ spl.form_name }}</strong>: {{ spl.title }} (SETID: {{ spl.setid }}) - Cat: {{ spl.marketing_category }} - Pub: {{ spl.published_date }}
+                                [<a href="{{ spl.pdf_link }}" target="_blank">PDF</a>]
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                <p><small><i>The detailed order sentences and consolidated summary below are based *only* on the SPLs you selected for detailed analysis.</i></small></p>
+            </div>
+        {% endif %}
+
+        {% if per_form_orders %}
+            <div class="section">
+                <h3>Order Sentences per Dosage Form</h3>
+                {% for form, orders in per_form_orders.items() %}
+                    <h4>{{ form }}</h4>
+                    {% if orders %}
+                        <ul>
+                        {% for order in orders %}
+                            <li>{{ order }}</li>
+                        {% endfor %}
+                        </ul>
+                    {% else %}
+                        <p>No specific order sentences found for this form.</p>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% if consolidated_summary %}
+            <div class="section">
+                <h3>Consolidated Narrative Summary (from Gemini)</h3>
+                <div>{{ consolidated_summary|safe }}</div>
+            </div>
+        {% endif %}
+        
+        {% if not error_message and not per_form_orders and not consolidated_summary %}
+            <div class="section">
+                <p>No information was found or generated for "{{ drug_name }}".</p>
+            </div>
+        {% endif %}
+
+        <p><a href="/" class="nav-link">New Search</a></p>
+    </div>
+</body>
+</html> 

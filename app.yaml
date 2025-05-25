@@ -1,0 +1,35 @@
+runtime: python312 # Or your specific Python version like python39, python310, python311
+
+entrypoint: gunicorn -b :$PORT main:app # Assumes your Flask app instance is named 'app' in main.py
+
+instance_class: F1 # Basic instance class, eligible for free tier
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 1 # Keeps it within free tier limits, adjust as needed for production
+
+# env_variables:
+#   # Define any environment variables your app needs here
+#   # Example: GOOGLE_MAPS_API_KEY: "YOUR_API_KEY"
+#   # GEMINI_API_KEY will ideally be set through secure means like Secret Manager
+#   # but can be defined here for simplicity if needed, though not recommended for production secrets.
+#   pass
+
+handlers:
+- url: /static
+  static_dir: static # If you have a static folder for CSS/JS, create it and place files there
+
+- url: /Inpatient_Pharmacy_Reference_Build\.xlsx
+  static_files: Inpatient_Pharmacy_Reference_Build.xlsx
+  upload: Inpatient_Pharmacy_Reference_Build\.xlsx
+
+- url: /.*
+  script: auto
+  secure: always # Redirect HTTP to HTTPS 
+
+env_variables:
+  # This is a placeholder, see beta_settings below for actual secret injection
+  GEMINI_API_KEY: ""
+
+beta_settings:
+  GEMINI_API_KEY: "projects/order-sentence/secrets/GEMINI_API_KEY:latest"

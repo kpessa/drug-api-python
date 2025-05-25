@@ -1,6 +1,7 @@
 import requests
 from urllib.parse import quote
 from lxml import etree
+import os # Added for os.path and os.makedirs
 
 BASE_URL = "https://dailymed.nlm.nih.gov/dailymed/services/v2"
 
@@ -10,6 +11,15 @@ HEADERS = {
 }
 
 NS = {'hl7': 'urn:hl7-org:v3'}
+SPL_CACHE_DIR = os.path.join("/tmp", "spl_cache") # Use /tmp/spl_cache for App Engine compatibility
+
+# Ensure the cache directory exists (only if writable)
+try:
+    if not os.path.exists(SPL_CACHE_DIR):
+        os.makedirs(SPL_CACHE_DIR)
+except OSError:
+    # On read-only file systems, skip cache directory creation
+    pass
 
 def search_dailymed_drug(drug_name, max_results=10):
     """
@@ -86,19 +96,78 @@ def list_spls(drug_name, max_results=10):
     return resp.json().get("data", [])
 
 def fetch_spl_xml(setid):
+    """Fetch SPL XML from DailyMed API, with local caching."""
+    cache_file_path = os.path.join(SPL_CACHE_DIR, f"{setid}.xml")
+
+    # Check if the file exists in cache
+    if os.path.exists(cache_file_path):
+        print(f"[INFO] Using cached SPL XML for SETID: {setid}")
+        with open(cache_file_path, 'rb') as f: # Read as bytes
+            return f.read()
+
+    # If not in cache, fetch from API
+    print(f"[INFO] Fetching SPL XML from API for SETID: {setid}")
     url = f"{BASE_URL}/spls/{setid}.xml"
-    resp = requests.get(url, headers=HEADERS)
-    resp.raise_for_status()
-    return resp.content
+    try:
+        resp = requests.get(url, headers=HEADERS)
+        resp.raise_for_status() # Raise an exception for HTTP errors
+        xml_content = resp.content
+
+        # Save to cache
+        with open(cache_file_path, 'wb') as f: # Write as bytes
+            f.write(xml_content)
+        
+        return xml_content
+    except requests.exceptions.RequestException as e:
+        print(f"[ERROR] Failed to fetch SPL XML for SETID {setid}: {e}")
+        return None # Return None or raise an exception as appropriate
 
 def extract_dosing_info(xml_content):
     tree = etree.fromstring(xml_content)
     dosing_sections = []
+    # More specific keywords for relevant sections
+    keywords = [
+        "2 DOSAGE AND ADMINISTRATION",
+        "DOSAGE AND ADMINISTRATION",
+        "DOSAGE FORMS AND STRENGTHS",
+        "OVERDOSAGE",
+        "HOW SUPPLIED"
+    ]
     for section in tree.xpath('.//hl7:section', namespaces=NS):
-        title = section.findtext('hl7:title', namespaces=NS)
-        text = "".join(section.itertext())
-        if (title and "DOSAGE" in title.upper()) or ("DOSAGE" in text.upper()):
-            dosing_sections.append(etree.tostring(section, pretty_print=True, encoding='unicode'))
+        title_element = section.find('hl7:title', namespaces=NS)
+        if title_element is not None:
+            title = "".join(title_element.itertext()).strip().upper()
+            # Check if the title STARTS WITH any of the keywords
+            if any(title.startswith(keyword) for keyword in keywords):
+                section_text_nodes = section.xpath('.//hl7:text', namespaces=NS)
+                section_text = ""
+                if section_text_nodes: # Check if hl7:text exists
+                    section_text = "".join(section_text_nodes[0].itertext()).strip()
+                
+                if not section_text: # Fallback if text element is not directly there or empty
+                    # More robustly get all text within the section
+                    current_section_text_elements = []
+                    # Iterate over all child elements of the section to build up the text
+                    for elem in section:
+                        if elem.tag != title_element.tag: # Avoid reprocessing the title element itself
+                            current_section_text_elements.append("".join(elem.itertext()).strip())
+                    full_section_text = " ".join(filter(None, current_section_text_elements)).strip() # Join with space, filter empty
+
+                    # Remove the title from the beginning of the text if it's repeated to avoid duplication
+                    if full_section_text.upper().startswith(title):
+                        section_text = full_section_text[len(title):].strip()
+                    else:
+                        section_text = full_section_text
+                
+                # Further refinement: remove title from section_text if it's there
+                # This is because the title is already added to the dosing_sections list
+                if section_text.upper().startswith(title):
+                     section_text = section_text[len(title):].strip()
+
+                if section_text: # Only add if there's actual text content
+                    # Prepend the original title (with original casing) to the section text
+                    original_title = "".join(title_element.itertext()).strip()
+                    dosing_sections.append(f"{original_title}:\n{section_text}")
     return dosing_sections
 
 def print_all_section_titles(xml_content):

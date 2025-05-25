@@ -1,0 +1,83 @@
+body { font-family: sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+.container { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+h1 { color: #333; }
+label { display: block; margin-bottom: 8px; font-weight: bold; }
+input[type="text"] { width: calc(100% - 22px); padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px; }
+input[type="submit"] { background-color: #5cb85c; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+input[type="submit"]:hover { background-color: #4cae4c; }
+
+#loading-indicator {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d9edf7;
+    border: 1px solid #bce8f1;
+    color: #31708f;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Styles for SPL Selection Cards */
+.spl-card-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /*  Enable Flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 15px; /* Spacing between cards */
+}
+
+.spl-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    /* margin-bottom: 10px; */ /* Replaced by gap in flex container */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    flex: 1 1 300px; /* Flex properties: grow, shrink, basis (min-width before wrapping) */
+    /* max-width: 400px; */ /* Optional: to prevent cards from becoming too wide */
+    display: flex; /* Make card itself a flex container for vertical alignment of content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Pushes footer to bottom */
+}
+
+.spl-card-header {
+    margin-bottom: 10px;
+}
+
+.spl-card-header input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.spl-card-header strong {
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+.spl-card-body p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.spl-card-body .spl-title {
+    font-style: italic;
+    color: #333;
+}
+
+.spl-card-footer {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.spl-card-footer a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5cb85c;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+.spl-card-footer a:hover {
+    background-color: #4cae4c;
+} 

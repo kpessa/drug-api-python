@@ -1,0 +1,2052 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="b301a110-424c-4a7d-9560-8fbfbbd1a557"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use DUODOTE<sup>®</sup> safely and effectively. See full prescribing information for DUODOTE.<br/>
+      <br/>DUODOTE (atropine and pralidoxime chloride injection), for intramuscular use<br/>Initial U.S. Approval: 2006
+</title>
+   <effectiveTime value="20220404"/>
+   <setId root="241f42a0-1a33-40e8-8221-201767d999e5"/>
+   <versionNumber value="17"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="049504624" root="1.3.6.1.4.1.519.1"/>
+            <name>Meridian Medical Technologies® LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="049504624" root="1.3.6.1.4.1.519.1"/>
+                        <name>Meridian Medical Technologies LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="11704-620" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="11704-620" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="11704-620" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="11704-620" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="11704-620" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="a7e85c61-0488-4313-a493-c3c4639b2750"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20171012"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="11704-620" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>DuoDote</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>atropine and pralidoxime chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="11704-620-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20060928"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="0.7" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code/>
+                              <name>DuoDote <suffix>AUTO-INJECTOR
+</suffix>
+                              </name>
+                              <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>atropine</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator value="2.1" unit="mg"/>
+                                    <denominator value="0.7" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="7C0697DR9I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>atropine</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="7C0697DR9I" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>atropine</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Glycerin</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Citric Acid Monohydrate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="339NCG44TV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Phenol</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Water</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Sodium Citrate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="N762921K75" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Nitrogen</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="0.7" unit="mL"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43204" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE, PLASTIC"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1"/>
+                                          <denominator value="1" unit="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                          <asContent>
+                                             <quantity>
+                                                <numerator value="1" unit="1"/>
+                                                <denominator value="1" unit="1"/>
+                                             </quantity>
+                                             <containerPackagedProduct>
+                                                <code/>
+                                                <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                             </containerPackagedProduct>
+                                          </asContent>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20060928"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA021983" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code/>
+                              <name>DuoDote <suffix>AUTO-INJECTOR
+</suffix>
+                              </name>
+                              <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>pralidoxime chloride</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator value="600" unit="mg"/>
+                                    <denominator value="2" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="38X7XS076H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>pralidoxime chloride</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="P7MU9UTP52" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>pralidoxime</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Benzyl Alcohol</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="TE7660XO1C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Glycine</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Water</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Hydrochloric Acid</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2" unit="mL"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43204" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE, PLASTIC"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1"/>
+                                          <denominator value="1" unit="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                          <asContent>
+                                             <quantity>
+                                                <numerator value="1" unit="1"/>
+                                                <denominator value="1" unit="1"/>
+                                             </quantity>
+                                             <containerPackagedProduct>
+                                                <code/>
+                                                <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                             </containerPackagedProduct>
+                                          </asContent>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20060928"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA021983" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20060928"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA021983" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="eec3d622-2841-4072-a430-4d58167e03d8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>DuoDote is indicated for the treatment of poisoning by organophosphorus nerve agents as well as organophosphorus insecticides in adults and pediatric patients weighing more than 41 kg (90 pounds).
+</paragraph>
+               </text>
+               <effectiveTime value="20171031"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>DuoDote, a combination of atropine, a cholinergic muscarinic antagonist, and pralidoxime chloride, a cholinesterase reactivator, is indicated for the treatment of poisoning by organophosphorus nerve agents as well as organophosphorus insecticides in adults and pediatric patients weighing more than 41 kg (90 pounds). (<linkHtml href="#s1">1</linkHtml>)
+</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="c1dccae5-d04e-4d94-b658-b90400b7017f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION
+</title>
+               <effectiveTime value="20200330"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>DuoDote is intended as an initial treatment as soon as symptoms appear; definitive medical care should be sought immediately. (<linkHtml href="#s3">2.1</linkHtml>)
+</item>
+                           <item>Dosage for Mild Symptoms: If the patient experiences two or more mild symptoms, administer one injection intramuscularly into the mid-lateral thigh. If, at any time after the first dose, the patient develops any of the severe symptoms, administer two additional injections intramuscularly in rapid succession. (<linkHtml href="#s4">2.2</linkHtml>)
+</item>
+                           <item>Dosage for Severe Symptoms: If a patient has any of the severe symptoms, immediately administer three injections intramuscularly into the patient's mid-lateral thigh in rapid succession. (<linkHtml href="#s4">2.2</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s3">
+                     <id root="027381f4-18c8-4d5e-92c3-1510440d619e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Important Administration Information
+</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Three (3) single-dose DuoDote autoinjectors should be available for use in each patient (including healthcare providers) at risk for organophosphorus poisoning; one (1) for mild symptoms plus two (2) more for severe symptoms <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#s4">2.2</linkHtml>)]</content>. Note that individuals may not have all symptoms included under the mild or severe symptom category.
+</item>
+                           <item>Only administer DuoDote to patients experiencing symptoms of organophosphorus poisoning in a situation where exposure is known or suspected. The DuoDote autoinjector is intended as an initial treatment of the symptoms of organophosphorus nerve agent or insecticide poisonings as soon as symptoms appear; definitive medical care should be sought immediately.
+</item>
+                           <item>The DuoDote autoinjector should be administered by healthcare providers who have had adequate training in the recognition and treatment of nerve agent or insecticide intoxication.
+</item>
+                           <item>Close supervision of all treated patients is indicated for at least 48 to 72 hours.
+</item>
+                           <item>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit <content styleCode="italics">[see Dosage Forms and Strengths (<linkHtml href="#s8">3</linkHtml>)]</content>.
+</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s4">
+                     <id root="96a44600-decc-455a-bac1-bebc4ced938f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Dosage Information
+</title>
+                     <effectiveTime value="20171031"/>
+                     <component>
+                        <section ID="s5">
+                           <id root="99b71999-f64e-4ad2-92f9-36c61f6d496f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Dosage for Mild Symptoms in Adults and Pediatric Patients Weighing More Than 41 kg (90 Pounds)</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">First Dose</content>: If the patient experiences two or more mild symptoms of nerve agent or insecticide exposure listed in <linkHtml href="#t1">Table 1</linkHtml>, administer one (1) single-dose DuoDote injection intramuscularly into the mid-lateral thigh.
+</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Additional Doses</content>: If, at any time after the first dose, the patient develops any of the severe symptoms listed in <linkHtml href="#t1">Table 1</linkHtml>, administer two (2) additional single-dose DuoDote injections intramuscularly in rapid succession.
+</paragraph>
+                              <paragraph>Wait 10 to 15 minutes for DuoDote to take effect. If, after 10 to 15 minutes, the patient does not develop any of the severe symptoms listed in <linkHtml href="#t1">Table 1</linkHtml>, no additional DuoDote injections are recommended.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s6">
+                           <id root="ad227bba-e08f-40b5-a24b-58e5e88f4e63"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Dosage for Severe Symptoms in Adults and Pediatric Patients Weighing More Than 41 kg (90 Pounds)</content>
+                              </paragraph>
+                              <paragraph>If a patient has any of the severe symptoms listed in <linkHtml href="#t1">Table 1</linkHtml>, immediately administer three (3) single-dose DuoDote injections intramuscularly into the patient's mid-lateral thigh in rapid succession.
+</paragraph>
+                              <table ID="t1" width="100%">
+                                 <caption>Table 1. Common Symptoms of Organophosphorus Exposure
+</caption>
+                                 <col width="52.750%" align="left"/>
+                                 <col width="47.250%" align="left"/>
+                                 <tbody>
+                                    <tr>
+                                       <td align="center" valign="middle" styleCode="Toprule Botrule Lrule Rrule">
+                                          <content styleCode="underline">Mild Symptoms</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="underline">Severe Symptoms</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">
+                                          <list listType="unordered" styleCode="Disc">
+                                             <item>Blurred vision, miosis
+</item>
+                                             <item>Excessive, unexplained teary eyes
+</item>
+                                             <item>Excessive, unexplained runny nose
+</item>
+                                             <item>Increased salivation such as sudden drooling
+</item>
+                                             <item>Chest tightness or difficulty breathing
+</item>
+                                             <item>Tremors throughout the body or muscular twitching
+</item>
+                                             <item>Nausea and/or vomiting
+</item>
+                                             <item>Unexplained wheezing, coughing or increased airway secretions
+</item>
+                                             <item>Acute onset of stomach cramps
+</item>
+                                             <item>Tachycardia or bradycardia
+</item>
+                                          </list>
+                                       </td>
+                                       <td align="left" valign="top" styleCode="Botrule Rrule">
+                                          <list listType="unordered" styleCode="Disc">
+                                             <item>Strange or confused behavior
+</item>
+                                             <item>Severe difficulty breathing or copious secretions from lungs/airway
+</item>
+                                             <item>Severe muscular twitching and general weakness
+</item>
+                                             <item>Involuntary urination and defecation
+</item>
+                                             <item>Convulsions
+</item>
+                                             <item>Unconsciousness<br/>
+                                             </item>
+                                          </list>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7">
+                     <id root="dac08e32-0cb0-4a99-8e13-060e1ecc5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Administration Instructions
+</title>
+                     <text>
+                        <paragraph>*Do Not Remove Gray Safety Release until ready to use.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">*</content>Never touch the Green Tip (Needle End)!
+</paragraph>
+                        <list listType="ordered" styleCode="Arabic">
+                           <item>
+                              <caption>1)</caption>Tear open the plastic pouch at any of the notches. Remove the DuoDote autoinjector from the pouch.
+</item>
+                           <item>
+                              <caption>2)</caption>Place the DuoDote autoinjector in your dominant hand. (If you are right-handed, your right hand is dominant.) Firmly grasp the center of the DuoDote autoinjector with the Green Tip (needle end) pointing down.
+</item>
+                           <item>
+                              <caption>3)</caption>With your other hand, pull off the Gray Safety Release. DuoDote is now ready to be administered.
+</item>
+                           <item>
+                              <caption>4)</caption>The injection site is the mid-lateral thigh area. The DuoDote autoinjector can inject through clothing. However, make sure pockets at the injection site are empty. People who may not have a lot of fat at the injection site should also be injected in the mid-lateral thigh, but before giving the injection, bunch up the thigh to provide a thicker area for injection.
+</item>
+                           <item>
+                              <caption>5)</caption>Firmly push the Green Tip straight down (a 90° angle) against the mid-lateral thigh. Continue to firmly push until you feel the DuoDote autoinjector trigger. After the autoinjector triggers, hold the DuoDote autoinjector firmly in place against the injection site for approximately 10 seconds.
+</item>
+                           <item>
+                              <caption>6)</caption>Remove the DuoDote autoinjector from the thigh and look at Green Tip. If the needle is visible, the drug has been administered. If the needle is not visible, check to be sure the Gray Safety Release has been removed, and then repeat above steps beginning with Step 4, but push harder in Step 5.
+</item>
+                           <item>
+                              <caption>7)</caption>After the drug has been administered, push the needle against a hard surface to bend the needle back against the DuoDote autoinjector.
+</item>
+                           <item>
+                              <caption>8)</caption>Put the used DuoDote autoinjector back into the plastic pouch, if available. Leave used DuoDote autoinjector(s) with the patient to allow other medical personnel to see the number of DuoDote autoinjector(s) administered.
+</item>
+                           <item>
+                              <caption>9)</caption>Immediately move yourself and the patient away from the contaminated area and seek definitive medical care for the patient.
+</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s8">
+               <id root="42704a1f-f08a-419b-a76e-88b675beb0b1"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS
+</title>
+               <text>
+                  <paragraph>Each single-dose DuoDote autoinjector contains the following in two separate chambers:
+</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>front chamber (visible): a clear, colorless to yellow, sterile solution of atropine (2.1 mg/0.7 mL)
+</item>
+                     <item>back chamber (not visible): a clear, colorless to yellow, sterile solution of pralidoxime chloride (600 mg/2 mL) equivalent to pralidoxime (476.6 mg/2 mL)
+</item>
+                  </list>
+                  <paragraph>When activated, DuoDote sequentially administers both drugs intramuscularly through a single needle in one injection.
+</paragraph>
+               </text>
+               <effectiveTime value="20171031"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Each single-dose DuoDote autoinjector contains atropine (2.1 mg/0.7 mL) plus pralidoxime chloride (600 mg/2 mL). (<linkHtml href="#s8">3</linkHtml>)
+</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s9">
+               <id root="9be4a4c6-d303-4324-a616-87b57ab2a712"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>None.
+</paragraph>
+               </text>
+               <effectiveTime value="20171031"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None. (<linkHtml href="#s9">4</linkHtml>)
+</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s10">
+               <id root="a2e6b8cb-df89-4da6-9765-0f88327ec1e9"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS
+</title>
+               <effectiveTime value="20171031"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="italics">Cardiovascular (CV) Risks:</content> Tachycardia, palpitations, premature ventricular contractions, flutter, fibrillation, etc. Use caution in patients with known CV disease or conduction problems. (<linkHtml href="#s11">5.1</linkHtml>)
+</item>
+                           <item>
+                              <content styleCode="italics">Heat Injury:</content> May inhibit sweating and lead to hyperthermia; avoid excessive exercising and heat exposure. (<linkHtml href="#s12">5.2</linkHtml>)
+</item>
+                           <item>
+                              <content styleCode="italics">Acute Glaucoma:</content> May precipitate in susceptible individuals. (<linkHtml href="#e12">5.3</linkHtml>)
+</item>
+                           <item>
+                              <content styleCode="italics">Urinary Retention</content>: Administer with caution in patient with bladder outflow obstruction. (<linkHtml href="#s13">5.4</linkHtml>)
+</item>
+                           <item>
+                              <content styleCode="italics">Pyloric Stenosis:</content> May convert into complete obstruction. (<linkHtml href="#s14">5.5</linkHtml>)
+</item>
+                           <item>
+                              <content styleCode="italics">Exacerbation of Chronic Lung Disease:</content> Atropine may cause inspissation of bronchial secretions and formation of dangerous viscid plugs in individuals with chronic lung disease; monitor respiratory status. (<linkHtml href="#s15">5.6</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s11">
+                     <id root="60081a7b-07d0-46d8-9aef-65ddb5e329c7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Cardiovascular Risks
+</title>
+                     <text>
+                        <paragraph>Cardiovascular adverse reactions reported in the literature for atropine include, but are not limited to, sinus tachycardia, palpitations, premature ventricular contractions, atrial flutter, atrial fibrillation, ventricular flutter, ventricular fibrillation, cardiac syncope, asystole, and myocardial infarction. In patients with a recent myocardial infarction and/or severe coronary artery disease, there is a possibility that atropine-induced tachycardia may cause ischemia, extend or initiate myocardial infarcts, and stimulate ventricular ectopy and fibrillation. DuoDote should be used with caution in patients with known cardiovascular disease or cardiac conduction problems. 
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="fdeb6d92-648e-4157-82aa-ba5e1fb95756"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Heat Injury
+</title>
+                     <text>
+                        <paragraph>Atropine may inhibit sweating which, in a warm environment or with excessive exercise, can lead to hyperthermia and heat injury. To the extent feasible, avoid excessive exercise and heat exposure <content styleCode="italics">[see Overdosage (<linkHtml href="#s36">10.2</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="e12">
+                     <id root="1c7f449a-6c6b-42f6-80f1-e90d9520b19d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Acute Glaucoma
+</title>
+                     <text>
+                        <paragraph>Atropine should be administered with caution in patients at risk for acute glaucoma.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="e78ad35e-8362-422c-9597-52d626be67e7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Urinary Retention
+</title>
+                     <text>
+                        <paragraph>Atropine should be administered with caution in patients with clinically significant bladder outflow obstruction because of the risk of urinary retention.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="ee5daa1a-35b6-4751-9418-38f3c054adc6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Pyloric Stenosis
+</title>
+                     <text>
+                        <paragraph>Atropine should be administered with caution in patients with partial pyloric stenosis because of the risk of complete pyloric obstruction.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="71e7e6a7-071c-4003-8eba-c7f9c8038033"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Exacerbation of Chronic Lung Disease
+</title>
+                     <text>
+                        <paragraph>Atropine may cause inspissation of bronchial secretions and formation of dangerous viscid plugs in individuals with chronic lung disease. Respiratory status should be monitored in individuals with chronic lung disease following administration of DuoDote.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="066698e2-720f-44d2-8bf6-a77deb757fc1"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>The following serious adverse reactions are described elsewhere in the labeling:
+</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Cardiovascular Risks <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s11">5.1</linkHtml>)]</content>
+                     </item>
+                     <item>Heat Injury <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s12">5.2</linkHtml>)]</content>
+                     </item>
+                     <item>Acute Glaucoma <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#e12">5.3</linkHtml>)]</content>
+                     </item>
+                     <item>Urinary Retention <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s13">5.4</linkHtml>)]</content>
+                     </item>
+                     <item>Pyloric Stenosis <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s14">5.5</linkHtml>)]</content>
+                     </item>
+                     <item>Exacerbation of Chronic Lung Disease <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s15">5.6</linkHtml>)]</content>
+                     </item>
+                  </list>
+                  <paragraph>The following adverse reactions associated with the use of atropine and pralidoxime chloride were identified in the literature. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.
+</paragraph>
+               </text>
+               <effectiveTime value="20220623"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Common adverse reactions of atropine include dryness of mouth, blurred vision, dry eyes, photophobia, confusion, headache, and dizziness among others. (<linkHtml href="#s17">6.1</linkHtml>) The common adverse reactions of pralidoxime chloride include changes in vision, dizziness, headache, drowsiness, nausea, tachycardia, increased blood pressure, muscular weakness, dry mouth, emesis, rash, dry skin, hyperventilation, decreased renal function, excitement, manic behavior, and transient elevation of liver enzymes and creatine phosphokinase. (<linkHtml href="#s18">6.2</linkHtml>)<br/>
+                           <br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Meridian Medical Technologies<sup>®</sup>, LLC at 1-833-739-0945 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s17">
+                     <id root="49ea414e-22ac-476e-978e-10f5129b3e21"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Atropine
+</title>
+                     <text>
+                        <paragraph>Because DuoDote contains pralidoxime chloride, which may potentiate the effect of atropine, signs of atropinization may occur earlier than might be expected when atropine is used alone.
+</paragraph>
+                        <paragraph>Common adverse reactions of atropine can be attributed to its antimuscarinic action. These include dryness of the mouth, blurred vision, dry eyes, photophobia, confusion, headache, dizziness, tachycardia, palpitations, flushing, urinary hesitancy or retention, constipation, abdominal pain, abdominal distention, nausea and vomiting, loss of libido, and impotence. Anhidrosis may produce heat intolerance and impairment of temperature regulation in a hot environment. Dysphagia, paralytic ileus, acute angle closure glaucoma, maculopapular rash, petechial rash, and scarletiniform rash have also been reported. Adverse cardiac reactions, including arrhythmias and myocardial infarction, have been reported with atropine <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s11">5.1</linkHtml>) and Clinical Pharmacology (<linkHtml href="#s41">12.2</linkHtml>)]</content>.
+</paragraph>
+                        <paragraph>Larger doses of atropine may produce central nervous system effects such as restlessness, tremor, fatigue, locomotor difficulties, delirium, and hallucinations <content styleCode="italics">[see Overdosage (<linkHtml href="#s33">10.1</linkHtml>)].</content>
+                        </paragraph>
+                        <paragraph>Hypersensitivity reactions will occasionally occur, are usually seen as skin rashes, and may progress to exfoliation. Anaphylactic reaction and laryngospasm are rare.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s18">
+                     <id root="e293ca83-e80d-4ddf-a822-2b4927db550d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2 Pralidoxime Chloride
+</title>
+                     <text>
+                        <paragraph>Pralidoxime can cause blurred vision, diplopia and impaired accommodation, dizziness, headache, drowsiness, nausea, tachycardia, increased systolic and diastolic blood pressure <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#s41">12.2</linkHtml>)],</content> muscular weakness, dry mouth, emesis, rash, dry skin, hyperventilation, decreased renal function, and decreased sweating when given parenterally to normal adult volunteers who have not been exposed to anticholinesterase poisons.
+</paragraph>
+                        <paragraph>In several cases of organophosphorus poisoning, excitement and manic behavior have occurred immediately following recovery of consciousness, in either the presence or absence of pralidoxime administration. However, similar behavior has not been reported in subjects given pralidoxime in the absence of organophosphorus poisoning.
+</paragraph>
+                        <paragraph>Elevations in AST and/or ALT enzyme levels were observed in 1 of 6 normal adult volunteers given 1200 mg of pralidoxime intramuscularly, and in 4 of 6 adult volunteers given 1800 mg intramuscularly. Levels returned to normal in about two weeks. Transient elevations in creatine kinase were observed in all normal volunteers given the drug.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200330"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s19">
+                     <id root="26b22946-a637-4e0a-908b-bc65e96a6983"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.3 Injection Site
+</title>
+                     <text>
+                        <paragraph>Muscle tightness and pain may occur at the injection site.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s20">
+                     <id root="d2e168e2-703d-4f9f-b06c-6e0749165d64"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.4 Inadvertent Injection
+</title>
+                     <text>
+                        <paragraph>In cases where DuoDote is inadvertently administered to people who are not poisoned with nerve agent or organophosphorus insecticide, the following effects on their ability to function normally may occur.
+</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption> 
+</caption>
+                              <content styleCode="italics">Atropine 2 mg IM</content>, roughly the equivalent of one DuoDote autoinjector, when given to healthy male volunteers, is associated with minimal effects on visual, motor, and mental functions, though unsteadiness walking and difficulty concentrating may occur. Atropine reduces body sweating and increases body temperature, particularly with exercise and under hot conditions.
+</item>
+                           <item>
+                              <caption> 
+</caption>
+                              <content styleCode="italics">Atropine 4 mg IM</content>, roughly the equivalent of two DuoDote autoinjectors, when given to healthy male volunteers, is associated with impaired visual acuity, visual near point accommodation, logical reasoning, digital recall, learning, and cognitive reaction time. Ability to read is reduced or lost. Subjects are unsteady and need to concentrate on walking. These effects begin about 15 minutes to one hour or more post-dose.
+</item>
+                           <item>
+                              <caption> 
+</caption>
+                              <content styleCode="italics">Atropine 6 mg IM</content>, roughly the equivalent of three DuoDote autoinjectors, when given to healthy male volunteers, is associated with the effects described above plus additional central effects including poor coordination, poor attention span, and visual hallucinations (colored flashes) in many subjects. Frank visual hallucinations, auditory hallucinations, disorientation, and ataxia occur in some subjects. Skilled and labor-intense tasks are performed more slowly and less efficiently. Decision making takes longer and is sometimes impaired.
+</item>
+                        </list>
+                        <paragraph>It is unclear if the above data, obtained from studies of healthy adult subjects, can be extrapolated to other populations. In the elderly and patients with co-morbid conditions, the effects of ≥2 mg atropine on the ability to see, walk, and think properly are unstudied; effects may be greater in susceptible populations.
+</paragraph>
+                        <paragraph>Patients who are mistakenly injected with DuoDote should avoid potentially dangerous overheating, avoid vigorous physical activity, and seek medical attention as soon as feasible.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s21">
+               <id root="c2549c40-647c-4f8f-a20b-0e2a0dcfbb2c"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS
+</title>
+               <effectiveTime value="20171031"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="italics">Succinylcholine and Mivacurium:</content> Accelerated reversal of neuromuscular blocking effects may occur; monitor with concomitant administration. (<linkHtml href="#s22">7.1</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s22">
+                     <id root="749b372b-88a4-4a1a-9c34-1ce0cb3df65f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Succinylcholine and Mivacurium
+</title>
+                     <text>
+                        <paragraph>Since pralidoxime in DuoDote reactivates cholinesterases and succinylcholine and mivacurium are metabolized by cholinesterases, patients with organophosphorus nerve agent or organophosphorus insecticide poisoning who have received DuoDote may exhibit accelerated reversal of the neuromuscular blocking effects of succinylcholine and mivacurium (relative to poisoned patients who have not received pralidoxime). Monitor for neuromuscular effects with concomitant administration.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s23">
+               <id root="a3b96672-9faf-458e-bf81-8610b7c3993c"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS
+</title>
+               <effectiveTime value="20171031"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Geriatric patients may be more susceptible to the effects of atropine. (<linkHtml href="#s29">8.5</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s24">
+                     <id root="55ee020f-c09e-422a-bc92-68e8cced0033"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy
+</title>
+                     <effectiveTime value="20171031"/>
+                     <component>
+                        <section ID="s25">
+                           <id root="c8d4f56c-1bc8-4991-ad29-2cadb5710ce8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                                 <br/>Atropine readily crosses the placental barrier and enters fetal circulation. There are no adequate data on the developmental risk associated with the use of atropine, pralidoxime, or the combination in pregnant women. Adequate animal reproduction studies have not been conducted with atropine, pralidoxime, or the combination. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s26">
+                     <id root="b8e6fa57-4ca2-4e10-9d91-fb7bb8dc5cb9"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation
+</title>
+                     <effectiveTime value="20171031"/>
+                     <component>
+                        <section ID="s27">
+                           <id root="169f41cc-1f91-4d08-855d-e11da49bc9a9"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                                 <br/>Atropine has been reported to be excreted in human milk. It is not known whether pralidoxime is excreted in human milk. There are no data on the effects of atropine or pralidoxime on the breastfed infant or the effects of the drugs on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for DuoDote and any potential adverse effects on the breastfed infant from DuoDote or from the underlying maternal condition.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s28">
+                     <id root="e4989ed9-00c7-42f2-9809-89aff9f34f64"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of atropine in DuoDote in patients weighing more than 41 kg (90 pounds) is supported by published literature. Safety and effectiveness of pralidoxime chloride in DuoDote in patients more than 41 kg (90 pounds) is supported by data from pharmacokinetic studies in adults and experience in the pediatric population. Adverse events seen in pediatric patients treated with atropine are similar to those that occur in adult patients, although central nervous system complaints are often seen earlier and at lower doses <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s17">6.1</linkHtml>)].</content>
+                        </paragraph>
+                        <paragraph>Safety and effectiveness of DuoDote in pediatric patients weighing less than or equal to 41 kg (90 pounds) have not been established.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="4af032e6-a53e-48bd-96f3-b58ccc6ac6bd"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use
+</title>
+                     <text>
+                        <paragraph>Geriatric patients may be more susceptible to the effects of atropine <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#s44">12.3</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s30">
+                     <id root="f7a9c71c-82f4-4de4-a7bc-19dfc6cfea9d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6 Renal Impairment
+</title>
+                     <text>
+                        <paragraph>Pralidoxime chloride can cause decreased renal function <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s18">6.2</linkHtml>)].</content> Patients with severe renal impairment may require less frequent doses after the initial dose.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s31">
+                     <id root="3b24b3da-71f6-482f-9a78-cfd0f4325d7e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.7 Hepatic Impairment
+</title>
+                     <text>
+                        <paragraph>Patients with severe hepatic impairment may require less frequent doses after the initial dose.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s32">
+               <id root="cd745d5f-bea4-4711-9f3e-1a77ae765535"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE
+</title>
+               <effectiveTime value="20171031"/>
+               <component>
+                  <section ID="s33">
+                     <id root="72395335-9a01-44e6-a793-3346190c617f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>10.1 Symptoms
+</title>
+                     <effectiveTime value="20171031"/>
+                     <component>
+                        <section ID="s34">
+                           <id root="0ae023f1-14a2-45a1-9270-ce3bd0c25b90"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Atropine</content>
+                                 <br/>Manifestations of atropine overdose are dose-related and include flushing, dry skin and mucous membranes, tachycardia, widely dilated pupils that are poorly responsive to light, blurred vision, and fever (which can sometimes be dangerously elevated). Locomotor difficulties, disorientation, hallucinations, delirium, confusion, agitation, coma, and central depression can occur and may last 48 hours or longer. In instances of severe atropine intoxication, respiratory depression, coma, circulatory collapse, and death may occur. 
+</paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s35">
+                           <id root="447f4e4b-4686-4fcd-8181-53a517278e8b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Pralidoxime</content>
+                                 <br/>It may be difficult to differentiate adverse events caused by pralidoxime from those caused by organophosphorus poisoning. Symptoms of pralidoxime overdose may include dizziness, blurred vision, diplopia, headache, impaired accommodation, nausea, and tachycardia. Transient hypertension caused by pralidoxime may last several hours.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s36">
+                     <id root="5f85be76-be65-4d8e-8219-fc89a93ed2e6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>10.2 Treatment
+</title>
+                     <text>
+                        <paragraph>For atropine overdose, supportive treatment should be administered. If respiration is depressed, artificial respiration with oxygen is necessary. Ice bags, a hypothermia blanket, or other methods of cooling may be required to reduce atropine-induced fever, especially in pediatric patients. Catheterization may be necessary if urinary retention occurs. Since atropine elimination largely takes place through the kidney, urinary output must be maintained and increased if possible; intravenous fluids may be indicated. Because of atropine-induced photophobia, the room should be darkened.
+</paragraph>
+                        <paragraph>A benzodiazepine may be needed to control marked excitement and convulsions. However, large doses for sedation should be avoided because the central nervous system depressant effect may coincide with the depressant effect occurring late in severe atropine poisoning. Barbiturates are potentiated by the anticholinesterases; therefore, barbiturates should be used cautiously in the treatment of convulsions. Central nervous system stimulants are not recommended.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s37">
+               <id root="35339514-2b1c-4208-80cb-24975ba27d7f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Each prefilled DuoDote autoinjector provides a single intramuscular dose of atropine, a cholinergic muscarinic antagonist, and pralidoxime chloride, a cholinesterase reactivator, in a self-contained unit, specifically designed for administration by emergency medical services personnel.
+</paragraph>
+                  <paragraph>When activated, each single-dose DuoDote autoinjector delivers the following:
+</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>2.1 mg of atropine in 0.7 mL of sterile, pyrogen-free solution containing 12.47 mg glycerin, not more than 2.8 mg phenol, 3.05 mg sodium citrate dihydrate, 3.5 mg citric acid monohydrate, and Water for Injection. The pH range is 4.0 – 5.0.
+</item>
+                     <item>600 mg of pralidoxime chloride equivalent to 476.6 mg of pralidoxime in 2 mL of sterile, pyrogen-free solution containing 40 mg benzyl alcohol, 22.5 mg glycine, and Water for Injection. The pH is adjusted with hydrochloric acid. The pH range is 2.0 to 3.0.
+</item>
+                  </list>
+                  <paragraph>Atropine occurs as white crystals, usually needle-like, or as a white, crystalline powder. It is slightly soluble in water with a molecular weight of 289.38. Atropine, a naturally occurring belladonna alkaloid, is a racemic mixture of equal parts of d- and l-hyoscyamine, with activity due almost entirely to the levo isomer of the drug.
+</paragraph>
+                  <paragraph>Chemically, atropine is designated as 1αH,5αH-Tropan-3α-ol(±)-tropate. Its empirical formula is C<sub>17</sub>H<sub>23</sub>NO<sub>3</sub> and its structural formula is as follows:
+</paragraph>
+                  <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  <paragraph>Pralidoxime chloride is an odorless, white to pale-yellow crystalline powder, freely soluble in water, with a molecular weight of 172.61. Chemically, pralidoxime chloride is designated as 2-formyl-l-methylpyridinium chloride oxime. Its empirical formula is C<sub>7</sub>H<sub>9</sub>ClN<sub>2</sub>O and its structural formula is indicated above.
+</paragraph>
+               </text>
+               <effectiveTime value="20220623"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Structural Formula
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s38">
+               <id root="df5e7ee1-8e5f-41dd-813f-cbaaa8fce30f"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY
+</title>
+               <effectiveTime value="20171031"/>
+               <component>
+                  <section ID="s39">
+                     <id root="c4c4fbbe-8f9c-4dea-8149-f2a1de736e77"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action
+</title>
+                     <effectiveTime value="20171031"/>
+                     <component>
+                        <section ID="s40">
+                           <id root="36a725b2-0387-43c9-bb66-cb37b1db6a57"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Atropine</content>
+                                 <br/>Atropine competitively blocks the effects of acetylcholine, including excess acetylcholine due to organophosphorus poisoning, at muscarinic cholinergic receptors on smooth muscle, cardiac muscle, secretory gland cells, and in peripheral autonomic ganglia and the central nervous system. 
+</paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">Pralidoxime</content>
+                                 <br/>Pralidoxime reactivates acetylcholinesterase which has been inactivated by phosphorylation due to an organophosphorus nerve agent or insecticide. However, pralidoxime does not reactivate acetylcholinesterase inactivated by all organophosphorus nerve agents (e.g., soman). Pralidoxime cannot reactivate phosphorylated acetylcholinesterases that have undergone a further chemical reaction known as “aging.” Reactivated acetylcholinesterase hydrolyzes excess acetylcholine resulting from organophosphorus poisoning to help restore impaired cholinergic neural function. Reactivation is clinically important because only a small proportion of active acetylcholinesterase is needed to maintain vital functions. 
+</paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s41">
+                     <id root="992b2218-f8e3-4d0d-9af5-bbb7c6ac7a4f"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics
+</title>
+                     <effectiveTime value="20171031"/>
+                     <component>
+                        <section ID="s42">
+                           <id root="2f747961-75b2-417a-b8a5-652d537093db"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Atropine</content>
+                                 <br/>Atropine reduces secretions in the mouth and respiratory passages, relieves airway constriction, and may reduce centrally-mediated respiratory paralysis. In severe organophosphorus poisoning, a fully atropinized patient may develop or continue to have respiratory failure and may require artificial respiration and suctioning of airway secretions. Atropine may cause thickening of secretions.
+</paragraph>
+                              <paragraph>Atropine-induced parasympathetic inhibition may be preceded by a transient phase of stimulation, especially on the heart where small doses first slow the rate before characteristic tachycardia develops due to paralysis of vagal control. Atropine increases heart rate and reduces atrioventricular conduction time. Adequate atropine doses can prevent or abolish bradycardia or asystole produced by organophosphorus nerve agents.
+</paragraph>
+                              <paragraph>Atropine may decrease the degree of partial heart block which can occur after organophosphorus poisoning. In some patients with complete heart block, atropine may accelerate the idioventricular rate; in others, the rate is stabilized. In some patients with conduction defects, atropine may cause paradoxical atrioventricular (A-V) block and nodal rhythm.
+</paragraph>
+                              <paragraph>Atropine will not act on the neuromuscular junction and has no effect on muscle paralysis or weakness, fasciculations or tremors; pralidoxime is intended to treat these symptoms.
+</paragraph>
+                              <paragraph>Systemic doses of atropine slightly raise systolic and lower diastolic pressures and can produce significant postural hypotension. Such doses also slightly increase cardiac output and decrease central venous pressure. Atropine can dilate cutaneous blood vessels, particularly the “blush” area (atropine flush), and may inhibit sweating, thereby causing hyperthermia, particularly in a warm environment or with exercise <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s12">5.2</linkHtml>)].</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s43">
+                           <id root="a743c2c0-cbb2-4d76-a303-42190038a273"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Pralidoxime Chloride</content>
+                                 <br/>Pralidoxime chloride has its most critical effect in relieving respiratory muscle paralysis. Because pralidoxime is less effective in relieving depression of the respiratory center, atropine is always required concomitantly to block the effect of accumulated acetylcholine at this site. Pralidoxime has a minor role in relieving muscarinic signs and symptoms, such as salivation or bronchospasm.
+</paragraph>
+                              <paragraph>DuoDote temporarily increases blood pressure, a known effect of pralidoxime. In a study of 24 healthy young adults administered a single dose of atropine and pralidoxime autoinjector intramuscularly (approximately 9 mg/kg pralidoxime chloride), diastolic blood pressure increased from baseline by 11 ± 14 mm Hg (mean ± SD), and systolic blood pressure increased by 16 ± 19 mm Hg, at 15 minutes post-dose. Blood pressures remained elevated at these approximate levels through one hour post-dose, began to decrease at two hours post-dose and were near pre-dose baseline at four hours post-dose.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s44">
+                     <id root="3e4e67fc-51eb-4f93-b6f2-60b61a56e596"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics
+</title>
+                     <effectiveTime value="20171031"/>
+                     <component>
+                        <section ID="s45">
+                           <id root="41feeee5-2852-4373-bcb9-596b972501a9"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Atropine:</content>
+                                 <br/>Atropine is well absorbed after intramuscular administration. Single dose DuoDote pharmacokinetic data for atropine are shown in <linkHtml href="#fig1">Figure 1</linkHtml>. The intramuscular injection site was the antero-lateral thigh.
+</paragraph>
+                              <paragraph>Mean atropine plasma concentrations shown in <linkHtml href="#fig1">Figure 1</linkHtml> indicate a plateau beginning at about 5 minutes post-dose and extending through 60 minutes post-dose.
+</paragraph>
+                              <paragraph ID="fig1">
+                                 <content styleCode="bold">Figure 1. Mean Atropine Plasma Concentrations After a Single DuoDote Intramuscular Injection, Which Delivers 2.1 mg of Atropine Base and 600 mg Pralidoxime Chloride, N=24 Healthy Adult Subjects [Men (n=12), Women (n=12)].</content>
+                              </paragraph>
+                              <renderMultiMedia ID="f02" referencedObject="mm02"/>
+                           </text>
+                           <effectiveTime value="20220623"/>
+                        </section>
+                     </component>
+                     <component>
+                        <observationMedia ID="mm02">
+                           <text>Figure 1
+</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="duo04-0012-02.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <section ID="s46">
+                           <id root="87d1ed20-fdf6-4c97-89f0-2b53b865bb6d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Pralidoxime Chloride:</content>
+                                 <br/>Pralidoxime chloride is rapidly absorbed after intramuscular injection. DuoDote single dose pharmacokinetic data for pralidoxime chloride 600 mg are provided in <linkHtml href="#fig2">Figure 2</linkHtml>.
+</paragraph>
+                              <paragraph ID="fig2">
+                                 <content styleCode="bold">Figure 2. Mean Pralidoxime Plasma Concentrations After a Single DuoDote Intramuscular Injection, Which Delivers 2.1 mg of Atropine and 600 mg Pralidoxime Chloride, N=24 Healthy Adult Subjects.</content>
+                              </paragraph>
+                              <renderMultiMedia ID="f03" referencedObject="mm03"/>
+                              <paragraph>The pharmacokinetic properties of the components of DuoDote are presented in <linkHtml href="#t2">Table 2</linkHtml>.
+</paragraph>
+                              <table ID="t2" width="100%">
+                                 <caption>Table 2. Pharmacokinetic Properties of the Components of DuoDote Following Intramuscular Administration in Healthy Subjects
+</caption>
+                                 <col width="36.933%" align="left"/>
+                                 <col width="29.733%" align="left"/>
+                                 <col width="33.333%" align="left"/>
+                                 <tbody>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                                          <content styleCode="bold">Pharmacokinetics related to:</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">Atropine</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">Pralidoxime</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule">
+                                          <content styleCode="bold">Absorption</content>
+                                       </td>
+                                       <td align="center" valign="top" styleCode="Botrule"/>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule"/>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">     C<sub>max</sub> (mean ± standard deviation)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">13 ± 3 ng/mL
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">7 ± 3 mcg/mL
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">     T<sub>max</sub> (mean ± standard deviation)
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">31 ± 30 minutes
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">28 ± 15 minutes
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule">
+                                          <content styleCode="bold">Distribution</content>
+                                       </td>
+                                       <td align="center" valign="middle" styleCode="Botrule"/>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule"/>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">     Protein binding
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">14 to 22% to plasma proteins
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">Not appreciable bound to serum proteins
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule">
+                                          <content styleCode="bold">Elimination</content>
+                                       </td>
+                                       <td align="center" valign="middle" styleCode="Botrule"/>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule"/>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">     T½
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">2.4 ± 0.3 hours
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">2 ± 1 hours
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">     Major route of excretion
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">Urinary
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">Urinary
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" valign="top" styleCode="Botrule Lrule Rrule">     Percentage of dose excreted in urine
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">50 to 60% as unchanged drug. About 17 to 28% eliminated in the first 100 minutes.
+</td>
+                                       <td align="center" valign="top" styleCode="Botrule Rrule">72 to 94% as unchanged drug. About 57 to 70% eliminated in the first 30 minutes, partly as metabolite.
+</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20220623"/>
+                        </section>
+                     </component>
+                     <component>
+                        <observationMedia ID="mm03">
+                           <text>Figure 2
+</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="duo04-0012-03.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <section ID="s47">
+                           <id root="94cb55b5-e03a-476f-8f6e-5b87fba60c69"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Specific Populations</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                           <component>
+                              <section ID="s48">
+                                 <id root="5c4d11d7-8230-4321-a519-a793454bc063"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Renal and Hepatic Impairment</content>
+                                       <br/>The pharmacokinetics of atropine or pralidoxime have not been evaluated in subjects with renal or hepatic impairment.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20171031"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="s49">
+                                 <id root="cf637eb0-a50f-4a03-ad75-669ed391e8d9"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Gender</content>
+                                       <br/>Atropine: DuoDote AUC<sub>0-inf</sub> and C<sub>max</sub> values for atropine are 15% higher in females than males. The half-life of atropine is approximately 20 minutes shorter in females than males.
+</paragraph>
+                                    <paragraph>Pralidoxime Chloride: A single DuoDote injection produced a mean C<sub>max</sub> for pralidoxime about 36% higher in females than males. T<sub>max</sub> is 23 minutes in females and 32 minutes in males. Pralidoxime half-life in males and females are 153 and 107 minutes, respectively.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20171031"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="s50">
+                                 <id root="c4ee7193-2246-481e-be81-4009ff371849"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Geriatric</content>
+                                       <br/>Atropine: Half-life of intravenous atropine is 3.0 ± 0.9 hours in adults and 10.0 ± 7.3 hours in geriatric patients (65-75 years of age).
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20171031"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s51">
+               <id root="87b4f548-e116-458a-876f-98cca036e081"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY
+</title>
+               <effectiveTime value="20171031"/>
+               <component>
+                  <section ID="s52">
+                     <id root="d49c83da-3af4-4ed9-9c94-72bc5d5f2626"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <effectiveTime value="20171031"/>
+                     <component>
+                        <section ID="s53">
+                           <id root="f2e9a39c-03ea-435f-b5a2-ee9eade76c41"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Carcinogenesis</content>
+                                 <br/>DuoDote is indicated for short-term emergency use only, and no adequate studies regarding the carcinogenic potential of atropine or pralidoxime chloride have been conducted.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s54">
+                           <id root="aa8365ab-3099-485a-b9a3-8f456e682bb4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Mutagenesis</content>
+                                 <br/>Studies to assess the mutagenic potential of atropine or pralidoxime chloride have not been conducted.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s55">
+                           <id root="29971d19-e1a8-4612-b2cc-790f0744e9c6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Impairment of Fertility</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20171031"/>
+                           <component>
+                              <section ID="s56">
+                                 <id root="0490d8e4-b813-40e9-ae9b-b633578a2339"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Atropine:</content>
+                                       <br/>In studies in which male rats were orally administered atropine (62.5 to 125 mg/kg) for one week prior to mating and throughout a 5-day mating period with untreated females, a dose-related decrease in fertility was observed. A no-effect dose for male reproductive toxicity was not established. The lowest dose tested was 290 times (on a mg/m<sup>2</sup> basis) the dose of atropine in a single application of DuoDote (2.1 mg).
+</paragraph>
+                                    <paragraph>Fertility studies of atropine in females have not been conducted.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20171031"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="s57">
+                                 <id root="556fb1c4-7667-4bde-be41-79fcd0409af8"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Pralidoxime Chloride:</content>
+                                       <br/>The effects of pralidoxime chloride on fertility have not been assessed.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20171031"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s58">
+               <id root="bdba606d-6357-4aa1-a066-c979cd360ca3"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING
+</title>
+               <text>
+                  <paragraph>Each single-dose DuoDote (atropine and pralidoxime chloride) autoinjector contains atropine (2.1 mg/0.7 mL; colorless to yellow solution, visible in front chamber) and pralidoxime chloride (600 mg/2 mL; colorless to yellow solution, not visible in rear chamber) and is available in a single unit carton, NDC-11704-620-01.
+</paragraph>
+                  <paragraph>Each DuoDote autoinjector is supplied in a pouch that provides protection from light.
+</paragraph>
+                  <paragraph>Store at 25ºC (77ºF); excursions permitted between 15ºC and 30ºC (between 59ºF and 86ºF) [See USP Controlled Room Temperature]. Not made with natural rubber latex. Keep from freezing. Protect from light.
+</paragraph>
+               </text>
+               <effectiveTime value="20171031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s59">
+               <id root="ceddca72-d828-4fd9-9a80-36c36436db30"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION 
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Use by Healthcare Providers</content>
+                     <br/>DuoDote is intended for use by Healthcare Providers. See the illustrated <linkHtml href="#s61">Instruction Sheet for Healthcare Providers</linkHtml>.
+</paragraph>
+               </text>
+               <effectiveTime value="20200330"/>
+               <component>
+                  <section ID="s60">
+                     <id root="2c76e593-af84-4cc1-b5e4-ea34e342f72d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Seek Definitive Medical Care</content>
+                           <br/>If feasible and appropriate, advise patients that DuoDote is an initial emergency treatment, that they need additional care at a healthcare facility.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20171031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="e60">
+                     <id root="452ff20f-a4b1-4f38-9941-0649ebb378dd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Avoid Overheating</content>
+                           <br/>If feasible and appropriate, advise the patient to avoid a hot environment and excessive physical activity since DuoDote can inhibit sweating which can lead to overheating and heat injury.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Manufactured by:</content>
+                           <content styleCode="bold">
+                              <br/>
+                           </content>Meridian Medical Technologies<sup>®</sup>, LLC<br/>St. Louis, MO 63146
+</paragraph>
+                     </text>
+                     <effectiveTime value="20220623"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s61">
+               <id root="7d0513c5-cc78-407d-92c8-71384b839639"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="100%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Instruction Sheet for <br/>Healthcare Providers</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>DuoDote is a single-dose autoinjector that should be administered by healthcare providers who have had adequate training in the recognition and treatment of nerve agent or insecticide intoxication.
+</paragraph>
+                  <paragraph>Individuals should not rely solely upon atropine and pralidoxime to provide complete protection from chemical nerve agents and insecticide poisoning.
+</paragraph>
+                  <paragraph>Primary protection against exposure to chemical nerve agents and insecticide poisoning is the wearing of protective garments including masks designed specifically for this use.
+</paragraph>
+                  <paragraph>Evacuation and decontamination procedures should be undertaken as soon as possible. Medical personnel assisting evacuated victims of nerve agent poisoning should avoid contaminating themselves by exposure to the victim's clothing.
+</paragraph>
+                  <paragraph>DuoDote is indicated for the treatment of poisoning by organophosphorus nerve agents as well as organophosphorus insecticides in adults and pediatric patients weighing more than 41 kg (90 pounds). DuoDote should only be administered to patients experiencing symptoms of organophosphorus poisoning in a situation where exposure is known or suspected. DuoDote should be administered as soon as symptoms of organophosphorus poisoning appear.
+</paragraph>
+                  <paragraph>The number of DuoDote autoinjectors to administer to an individual is based on severity of symptoms. Common symptoms of organophosphorus exposure are listed below. Individuals may not have all symptoms:
+</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="49.800%" align="left"/>
+                     <col width="50.200%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top">
+                              <content styleCode="underline">Mild Symptoms</content>
+                           </td>
+                           <td align="center" valign="top">
+                              <content styleCode="underline">Severe Symptoms</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Blurred vision, miosis
+</item>
+                                 <item>Excessive, unexplained teary eyes
+</item>
+                                 <item>Excessive, unexplained runny nose
+</item>
+                                 <item>Increased salivation such as sudden drooling
+</item>
+                                 <item>Chest tightness or difficulty breathing
+</item>
+                                 <item>Tremors throughout the body or muscular twitching
+</item>
+                                 <item>Nausea and/or vomiting
+</item>
+                                 <item>Unexplained wheezing, coughing or increased airway secretions
+</item>
+                                 <item>Acute onset of stomach cramps
+</item>
+                                 <item>Tachycardia or bradycardia
+</item>
+                              </list>
+                           </td>
+                           <td align="left" valign="top" styleCode="Lrule">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Strange or confused behavior
+</item>
+                                 <item>Severe difficulty breathing or copious secretions from lungs/airway
+</item>
+                                 <item>Severe muscular twitching and general weakness
+</item>
+                                 <item>Involuntary urination and defecation
+</item>
+                                 <item>Convulsions
+</item>
+                                 <item>Unconsciousness
+</item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="underline">Dosage for Mild Symptoms in Adults and Pediatric Patients Weighing More Than 41 kg (90 Pounds)</content>
+                     <br/>
+                     <content styleCode="italics">First Dose</content>: Administer one (1) DuoDote injection into the mid-lateral thigh if the patient experiences two or more <content styleCode="underline">mild</content> symptoms of nerve agent or insecticide exposure.
+</paragraph>
+                  <paragraph>Trained healthcare providers with mild symptoms may self-administer a single-dose of DuoDote.
+</paragraph>
+                  <paragraph>Wait 10 to 15 minutes for DuoDote to take effect. If, after 10 to 15 minutes, the patient does not develop any of the <content styleCode="underline">severe</content> symptoms listed above, no additional DuoDote injections are recommended, but definitive medical care should ordinarily be sought immediately. For healthcare providers who have self-administered DuoDote, an individual decision will need to be made to determine their capacity to continue to provide emergency care.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Additional Doses</content>: If, <content styleCode="underline">at any time after the first dose</content>, the patient develops any of the <content styleCode="underline">severe</content> symptoms listed above, administer two (2) additional DuoDote injections in rapid succession, and immediately seek definitive medical care.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Dosage for Severe Symptoms in Adults and Pediatric Patients Weighing More Than 41 kg (90 Pounds)</content>
+                     <br/>If a patient has any of the <content styleCode="underline">severe</content> symptoms listed above, immediately administer three (3) DuoDote injections into the patient's mid-lateral thigh in rapid succession, and immediately seek definitive medical care.
+</paragraph>
+                  <paragraph>Emergency care of the severely poisoned individual should include removal of oral and bronchial secretions, maintenance of a patent airway, supplemental oxygen, and, if necessary, artificial ventilation.
+</paragraph>
+                  <paragraph>An anticonvulsant such as a benzodiazepine may be administered to treat convulsions if suspected in the unconscious individual. The effects of nerve agents and some insecticides can mask the motor signs of a seizure.
+</paragraph>
+                  <paragraph>Close supervision of all severely poisoned patients is indicated for at least 48 to 72 hours.
+</paragraph>
+               </text>
+               <effectiveTime value="20171031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s62">
+               <id root="fcb77425-afbc-4d63-9ee8-73f3a09903e7"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="19.000%" align="left"/>
+                     <col width="32.733%" align="left"/>
+                     <col width="48.267%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td colspan="3" align="center" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Instructions for Use of the DuoDote Autoinjector</content>
+                              </paragraph>
+                              <paragraph>Do Not Remove Gray Safety Release until ready to use
+</paragraph>
+                              <paragraph>Never touch the Green Tip (Needle End)!
+</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">Weight Guidelines</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Botrule Lrule">
+                              <br/>
+                              <renderMultiMedia ID="f04" referencedObject="mm04"/>
+                           </td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">For use with adults and pediatric patients weighing more than 41 kg (90 lb).
+</td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">For patients weighing less than or equal to 41 kg (90 lb) use the appropriate dose of:<br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>ATROPEN<sup>®</sup> or atropine from a vial
+</item>
+                                 <item>Pralidoxime chloride from a vial
+</item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>
+                        <caption>1)
+</caption>Tear open the plastic pouch at any of the notches. Remove the DuoDote autoinjector from the pouch.<renderMultiMedia ID="f05" referencedObject="mm05"/>
+                     </item>
+                     <item>
+                        <caption>2)
+</caption>Place the DuoDote autoinjector in your dominant hand. (If you are right-handed, your right hand is dominant.) Firmly grasp the center of the DuoDote autoinjector with the Green Tip (needle end) pointing down.<renderMultiMedia ID="f06" referencedObject="mm06"/>
+                     </item>
+                     <item>
+                        <caption>3)
+</caption>With your other hand, pull off the Gray Safety Release. DuoDote is now ready to be administered.<renderMultiMedia ID="f07" referencedObject="mm07"/>
+                     </item>
+                     <item>
+                        <caption>4)
+</caption>The injection site is the mid-lateral thigh area. The DuoDote autoinjector can inject through clothing. However, make sure pockets at the injection site are empty.<br/>People who may not have a lot of fat at the injection site should also be injected in the mid-lateral thigh, but before giving the injection, bunch up the thigh to provide a thicker area of injection.<renderMultiMedia ID="f08" referencedObject="mm08"/>
+                     </item>
+                     <item>
+                        <caption>5)
+</caption>Firmly push the Green Tip straight down (at a 90° angle) against the mid-lateral thigh. Continue to firmly push until you feel the DuoDote autoinjector trigger.<renderMultiMedia ID="f09" referencedObject="mm09"/>
+                        <paragraph>
+                           <content styleCode="bold">IMPORTANT: After the autoinjector triggers, hold the DuoDote autoinjector firmly in place against the injection site for approximately 10 seconds.</content>
+                        </paragraph>
+                     </item>
+                     <item>
+                        <caption>6)
+</caption>Remove the DuoDote autoinjector from the thigh and look at the Green Tip. If the needle is visible, the drug has been administered. If the needle is not visible, check to be sure the Gray Safety Release has been removed, and then repeat above steps beginning with Step 4, but push harder in Step 5.<renderMultiMedia ID="f10" referencedObject="mm10"/>
+                     </item>
+                     <item>
+                        <caption>7)
+</caption>After the drug has been administered, push the needle against a hard surface to bend the needle back against the DuoDote autoinjector.<renderMultiMedia ID="f11" referencedObject="mm11"/>
+                     </item>
+                     <item>
+                        <caption>8)
+</caption>Put the used DuoDote autoinjector back into the plastic pouch, if available. Leave used DuoDote autoinjector(s) with the patient to allow other medical personnel to see the number of DuoDote autoinjector(s) administered.
+</item>
+                     <item>
+                        <caption>9)
+</caption>Immediately move yourself and the patient away from the contaminated area and seek definitive medical care for the patient.
+</item>
+                  </list>
+                  <paragraph>DuoDote<sup>®</sup> is a registered trademark of:<br/>Meridian Medical Technologies<sup>®</sup>, LLC<br/>St. Louis, MO 63146<br/>1-833-739-0945<br/>© 2022 by Meridian Medical Technologies, LLC<br/>Revised: 06/2022<br/>0002165
+</paragraph>
+               </text>
+               <effectiveTime value="20220623"/>
+               <component>
+                  <observationMedia ID="mm04">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm05">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm06">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm07">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm08">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm09">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm10">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm11">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s63">
+               <id root="cae5c985-006d-4c47-907e-e21532088689"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Principal Display Panel - DuoDote Carton Label</content>
+                  </paragraph>
+                  <paragraph>For use in <content styleCode="bold">Nerve Agent<br/>
+                     </content>or <content styleCode="bold">Insecticide<br/>Poisoning</content>
+                  </paragraph>
+                  <paragraph>For adults and pediatric<br/>patients weighing <br/>
+                     <content styleCode="bold">41 kg + <br/>or 90 lb +</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 11704-620-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DuoDote</content>
+                     <content styleCode="bold">
+                        <sup>®
+</sup>
+                     </content>
+                     <content styleCode="bold">Single-Dose Auto-Injector</content>
+                  </paragraph>
+                  <paragraph>(atropine and pralidoxime chloride injection)
+</paragraph>
+                  <paragraph>Each auto-injector delivers an intramuscular injection of<br/>
+                     <content styleCode="bold">2.1 mg/0.7 mL of atropine and 600 mg/2 mL (300 mg/mL) of<br/>pralidoxime chloride equivalent to 476.6 mg of pralidoxime</content>
+                  </paragraph>
+                  <paragraph>Store at 25°C (77°F). Excursions permitted to 15-30°C (59-86°F).
+</paragraph>
+                  <paragraph>Keep from freezing. Protect from light.
+</paragraph>
+                  <paragraph>11704-62001
+</paragraph>
+                  <renderMultiMedia ID="f12" referencedObject="mm12"/>
+               </text>
+               <effectiveTime value="20220623"/>
+               <component>
+                  <observationMedia ID="mm12">
+                     <text>Principal Display Panel - DuoDote Carton Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s64">
+               <id root="3206aa50-e869-483f-bde3-1703ca8b72b2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Principal Display Panel - DuoDote Pouch Label</content>
+                  </paragraph>
+                  <paragraph>For use in<content styleCode="bold">
+                        <br/>Nerve Agent</content> or <br/>
+                     <content styleCode="bold">Insecticide Poisoning</content>
+                  </paragraph>
+                  <paragraph>For adults and pediatric<br/>patients weighing <br/>
+                     <content styleCode="bold">41 kg + <br/>or 90 lb +</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MERIDIAN<br/>MEDICAL TECHNOLOGIES</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DuoDote</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>(atropine and pralidoxime<br/>chloride injection)
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single-Dose Auto-Injector</content>
+                  </paragraph>
+                  <paragraph>Each auto-injector delivers<br/>an intramuscular injection of<br/>
+                     <content styleCode="bold">2.1 mg/0.7 mL of atropine<br/>600 mg/2 mL (300 mg/mL)<br/>of pralidoxime chloride<br/>equivalent to 476.6 mg of pralidoxime</content>
+                  </paragraph>
+                  <paragraph>Usual dosage: See insert
+</paragraph>
+                  <paragraph>Store at 25°C (77°F). Excursions<br/>permitted to 15-30°C (59-86°F).
+</paragraph>
+                  <paragraph>Keep from freezing.
+</paragraph>
+                  <paragraph>Protect from light.
+</paragraph>
+                  <paragraph>Manufactured By/Distributed By<br/>Meridian Medical Technologies<sup>®</sup>, LLC<br/>St. Louis, MO 63146<br/>0002197
+</paragraph>
+                  <paragraph>NDC 11704 62001
+</paragraph>
+                  <renderMultiMedia ID="f13" referencedObject="mm13"/>
+               </text>
+               <effectiveTime value="20220623"/>
+               <component>
+                  <observationMedia ID="mm13">
+                     <text>Principal Display Panel - DuoDote Pouch Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-13.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s65">
+               <id root="f2a4d360-fc6d-4c7b-8452-6cebcd2da125"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Principal Display Panel - DuoDote Syringe Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 11704 62001</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not<br/>
+                     </content>place fingers<br/>on <content styleCode="bold">green</content> tip<br/>(needled end)
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual dosage:<br/>See insert.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DuoDote</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>(atropine and pralidoxime<br/>chloride injection)
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single-Dose Auto-Injector</content>
+                  </paragraph>
+                  <paragraph>Delivers an intramuscular injection<br/>of 2.1 mg/0.7 mL of atropine<br/>600 mg/2 mL (300 mg/mL) of pralidoxime<br/>chloride equivalent to 476.6 mg of pralidoxime
+</paragraph>
+                  <paragraph>For use in<content styleCode="bold">
+                        <br/>Nerve Agent</content> or<br/>
+                     <content styleCode="bold">Insecticide Poisoning</content>
+                  </paragraph>
+                  <paragraph>For adults and pediatric<br/>patients weighing <br/>
+                     <content styleCode="bold">41 kg + <br/>or 90 lb +</content>
+                  </paragraph>
+                  <paragraph>For product inquiry call 1-833-739-0945
+</paragraph>
+                  <paragraph>Manufactured By/Distributed By<br/>Meridian Medical Technologies<sup>®</sup>, LLC<br/>St. Louis, MO 63146<br/>©2020 Meridian Medical Technologies
+</paragraph>
+                  <renderMultiMedia ID="f14" referencedObject="mm14"/>
+               </text>
+               <effectiveTime value="20220623"/>
+               <component>
+                  <observationMedia ID="mm14">
+                     <text>Principal Display Panel - DuoDote Syringe Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="duo04-0012-14.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
