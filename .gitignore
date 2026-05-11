@@ -127,3 +127,20 @@ celerybeat.pid
 
 # Excel files (if you don't want to track them)
 # Inpatient_Pharmacy_Reference_Build.xlsx 
+
+# Added by auto-ignore sweep
+node_modules/
+.next/
+.svelte-kit/
+.env.local
+.env.*.local
+.idea/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.venv/
+.turbo/
+.vercel/
+.cache/
+.parcel-cache/
+coverage/
+.nyc_output/
